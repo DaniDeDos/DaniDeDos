@@ -1,0 +1,16 @@
+{
+  "name": "danidedos",
+  "version": "1.0.0",
+  "description": "danidedos README Github profile",
+  "main": "index.js",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3"
+  }
+}
