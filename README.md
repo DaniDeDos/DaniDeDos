@@ -9,12 +9,15 @@
 <details open>
   <summary><b>Programming Languages</b></summary>
 
-  > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B12.8%25" />
+
+  > <img src="https://img.shields.io/badge/JavaScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%23F7DF1E&labelColor=%23F7DF1E&color=%23808080"/>
+  > <img src="https://img.shields.io/badge/TypeScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%233178C6&labelColor=%233178C6&color=%23808080"/>
+  
 </details>
 <details open>
   <summary><b>Frameworks and Libraries</b></summary>
 
-  > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=982s&labelColor=%23f1e05a&message=React.js%EF%B8%B138.8%25" />
+  > <img src="https://img.shields.io/badge/React%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%2361DAFB&labelColor=%2361DAFB&color=%23808080" />
 </details>
 <details open>
   <summary><b>Software and Tools</b></summary>
@@ -76,7 +79,7 @@ No activity tracked
   />
 </p>
 
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 6:42:32 PM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 6:16:35 PM</b></p> 
 
 # DaniDeDos
 ¡Revisa mi contenido 👇!
