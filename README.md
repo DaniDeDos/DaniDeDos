@@ -1,8 +1,27 @@
 <div>
   <img src="/images/banner-DaniDeDos.png" width="100%" />
 </div>
-¡Revisa mi contenido 👇!
-<h1>Hey there, I'm <a  href="https://github.com/tanyagupta0201/">Tanya Gupta </a> <img  src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30"></h1>
+
+<h2>About me</h2>
+
+## <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture> 
+<h2>Skills</h2>
+<details open>
+  <summary><b>Programming Languages</b></summary>
+  
+  ![JavaScript](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B12.8%25)
+  
+  ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+  
+  [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+</details>
+<h2>Github Stats</h2>
+
+
+
+```txt
+No activity tracked
+```
 
 [![linkedin badge](https://img.shields.io/badge/tanyagupta0201-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/tanyagupta0201)
 [![Gmail Badge](https://img.shields.io/badge/tanyagupta.pg@gmail.com-30302f?style=flat&logo=Gmail&logoColor=red)](mailto:tanyagupta.pg@gmail.com)
@@ -41,11 +60,7 @@
 <br />
 <br />
 
-<!-- Tech Stack -->
-<details open>
-  <summary><b>🛠️ Tech Stack</b></summary>
-  <p>----</p>
-</details>
+
 
 <!--footer-->
 <p align="center">
@@ -55,6 +70,7 @@
   />
 </p>
 
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 9:45:18 AM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 9:01:28 AM</b></p> 
 
 # DaniDeDos
+¡Revisa mi contenido 👇!
