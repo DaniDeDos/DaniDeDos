@@ -16,6 +16,11 @@
 
   > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=982s&labelColor=%23f1e05a&message=React.js%EF%B8%B138.8%25" />
 </details>
+<details open>
+  <summary><b>Software and Tools</b></summary>
+
+  > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=982s&labelColor=%23f1e05a&message=React.js%EF%B8%B138.8%25" />
+</details>
 <h2>Github Stats</h2>
 
 Database:
@@ -71,7 +76,7 @@ No activity tracked
   />
 </p>
 
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 3:23:02 PM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 3:22:48 PM</b></p> 
 
 # DaniDeDos
 ¡Revisa mi contenido 👇!
