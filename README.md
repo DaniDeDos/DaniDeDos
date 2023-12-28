@@ -1,11 +1,4 @@
 <div>
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1"
-    width="100%"
-  />
-</div>
-
-<div>
   <img src="/images/banner-DaniDeDos.png" width="100%" />
 </div>
 ¡Revisa mi contenido 👇!
