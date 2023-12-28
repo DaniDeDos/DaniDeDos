@@ -8,16 +8,17 @@
 <h2>Skills</h2>
 <details open>
   <summary><b>Programming Languages</b></summary>
-  
-  ![JavaScript](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B12.8%25)
-  
-  ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-  
-  [![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev)
+
+  > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor=%23f1e05a&message=JavaScript%EF%B8%B12.8%25" />
+</details>
+<details open>
+  <summary><b>Frameworks and Libraries</b></summary>
+
+  > <img src="https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=982s&labelColor=%23f1e05a&message=React.js%EF%B8%B138.8%25" />
 </details>
 <h2>Github Stats</h2>
 
-
+Database:
 
 ```txt
 No activity tracked
@@ -70,7 +71,7 @@ No activity tracked
   />
 </p>
 
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 3:20:31 PM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 2:45:34 PM</b></p> 
 
 # DaniDeDos
 ¡Revisa mi contenido 👇!
