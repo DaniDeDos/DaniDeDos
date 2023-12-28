@@ -115,7 +115,7 @@ No activity tracked
 
 <p>Bot activo: ${botActive ? 'Sí' : 'No'}</p>
 <p>Función de comprobación de la última actividad: ${lastActivityCheckFunctionWorking ? 'Sí' : 'No'}</p>
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 11:11:13 PM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 11:21:14 PM</b></p> 
 # DaniDeDos
 
 ¡Revisa mi contenido 👇!
