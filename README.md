@@ -56,6 +56,6 @@
   />
 </p>
 
-<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 6:35:26 AM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/28/2023, 6:40:42 AM</b></p> 
 
 # DaniDeDos
