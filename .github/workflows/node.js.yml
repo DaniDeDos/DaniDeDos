@@ -26,12 +26,13 @@ jobs:
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
    - run: |
-      botActive=$(cat status.json | jq '.botActive')
-      sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
-      git config user.name DaniDeDos
-      git config user.email hasashih978@gmail.com
-      git add README.md
-      git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-      git pull origin main
-      git push origin main
+        botActive=$(cat status.json | jq '.botActive')
+        sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
+        git config user.name DaniDeDos
+        git config user.email hasashih978@gmail.com
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
+        git pull origin main
+        git push origin main
+
 
