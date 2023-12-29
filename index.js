@@ -3,6 +3,7 @@ import Handlebars from 'handlebars';
 import fs from 'fs/promises';
 import { updateLastConnection } from './updateLastConnection.js';
 
+
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
