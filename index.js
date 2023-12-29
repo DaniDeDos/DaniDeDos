@@ -72,15 +72,16 @@ async function countAndUpdateCommitsByPartOfDay(username) {
 
  // Reemplazar la sección de conteo de commits con los nuevos conteos para cada parte del día
  const updatedContent = matches.reduce((acc, match, index) => {
-   if (match) {
-     return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
-   } else {
-     return acc;
-   }
+  if (match) {
+    return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
+  } else {
+    return acc;
+  }
  }, content);
 
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
 }
+
 
 
 main();
