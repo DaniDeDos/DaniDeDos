@@ -1,6 +1,7 @@
 import axios from "axios";
 import fs from 'fs/promises';
 import { execSync } from 'child_process';
+import moment from 'moment';
 
 import { updateBotStatus } from './updateBotStatus.js';
 import { updateLastConnection } from './updateLastConnection.js';
@@ -31,8 +32,6 @@ function calculateCommitsPerPart(commits) {
  });
  return commitsPerPart;
 }
-
-import moment from 'moment';
 
 function getPartOfDay(commit) {
  const date = new Date(commit.created_at);
