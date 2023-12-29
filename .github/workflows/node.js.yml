@@ -22,9 +22,12 @@ jobs:
        node-version: '16'
    - run: npm install
    - run: npm run update-readme
+   
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
    - run: |
+       botActive=$(cat status.json | jq '.botActive')
+       sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
        git config user.name DaniDeDos
        git config user.email hasashih978@gmail.com
        git add README.md
