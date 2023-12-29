@@ -1,5 +1,22 @@
 const axios = require("axios");
-const fs = require("fs").promises;
+const Handlebars = require('handlebars');
+const fs = require('fs').promises;
+
+// Leer el archivo de plantilla
+const template = await fs.readFile('./README.md.tpl', 'utf8');
+
+// Compilar la plantilla
+const compiledTemplate = Handlebars.compile(template);
+
+// Leer el estado del bot
+const botStatus = await fs.readFile('./status.json', 'utf8');
+const botData = JSON.parse(botStatus);
+
+// Renderizar la plantilla con los datos del bot
+const updatedContent = compiledTemplate(botData);
+
+// Escribir el contenido actualizado en README.md
+await fs.writeFile('./README.md', updatedContent, 'utf8');
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
