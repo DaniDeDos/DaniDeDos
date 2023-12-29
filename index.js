@@ -1,5 +1,6 @@
 import axios from "axios";
 import fs from 'fs/promises';
+import { execSync } from 'child_process';
 
 import { updateBotStatus } from './updateBotStatus.js';
 import { updateLastConnection } from './updateLastConnection.js';
@@ -10,19 +11,6 @@ async function main() {
  // Actualiza el estado del bot
  await updateBotStatus("Online");
 }
-
-async function readFile() {
-   try {
-       const data = await fs.readFile('./README.md', 'utf8');
-       // procesar los datos aquí
-   } catch (err) {
-       console.error(`Error reading file: ${err}`);
-   }
-}
-
-
-
-import { execSync } from 'child_process';
 
 async function countCommits(after) {
  const output = execSync(`git rev-list --count HEAD --after="${after}"`).toString();
