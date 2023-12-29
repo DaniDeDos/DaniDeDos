@@ -6,7 +6,6 @@ import fs from 'fs/promises';
 import { isBotActive, setBotActiveState } from './botStatusUpdater.js';
 import { updateLastConnection } from './updateLastConnection.js';
 
-
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
