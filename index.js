@@ -2,6 +2,11 @@ import axios from "axios";
 import Handlebars from 'handlebars';
 import fs from 'fs/promises';
 
+// Renderizar la plantilla con los datos del bot
+const botData = JSON.parse(botStatus);
+const data = { botStatus: botData.botStatus };
+const updatedContent = compiledTemplate(data);
+
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
