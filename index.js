@@ -6,14 +6,14 @@ import moment from 'moment';
 import { updateBotStatus } from './updateBotStatus.js';
 import { updateLastConnection } from './updateLastConnection.js';
 
-console.log("hola mundo")
 async function main() {
  // Actualiza README.md con la última fecha de actividad
  await updateLastConnection("DaniDeDos");
  // Actualiza el estado del bot
  await updateBotStatus("Online");
+ // Cuenta los commits por parte del día y actualiza README.md
+ await countAndUpdateCommitsByPartOfDay("DaniDeDos");
 }
-
 
 async function getCommits(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
@@ -57,8 +57,26 @@ async function countCommitsByPartOfDay(username) {
  return counts;
 }
 
-// Prueba la función
-countCommitsByPartOfDay("DaniDeDos").then(console.log);
+async function countAndUpdateCommitsByPartOfDay(username) {
+ const commits = await getCommits(username);
+ const counts = {
+   morning: 0,
+   afternoon: 0,
+   evening: 0,
+   night: 0
+ };
+
+ commits.forEach(commit => {
+   const partOfDay = getPartOfDay(commit);
+   counts[partOfDay]++;
+ });
+
+ // Escribir los resultados en README.md
+ let content = await fs.readFile("./README.md", { encoding: "utf-8" });
+ const regex = /<p align="right">Commit Counts: .*?<\/p>/;
+ const updatedContent = content.replace(regex, `<p align="right">Commit Counts: Morning - ${counts.morning}, Afternoon - ${counts.afternoon}, Evening - ${counts.evening}, Night - ${counts.night}</p>`);
+ await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
+}
 
 
 main();
