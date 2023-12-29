@@ -3,13 +3,11 @@ const fs = require("fs").promises;
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
+ let botActive = false;
  if (response.data && response.data.length > 0) {
-   // Consideramos que el bot está activo si se encuentra algún evento
-   return true;
- } else {
-   // Si no se encuentran eventos, consideramos que el bot no está activo
-   return false;
+  botActive = true;
  }
+ await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
 
 async function main() {
