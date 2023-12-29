@@ -6,6 +6,7 @@ import moment from 'moment';
 import { updateBotStatus } from './updateBotStatus.js';
 import { updateLastConnection } from './updateLastConnection.js';
 
+console.log("hola mundo")
 async function main() {
  // Actualiza README.md con la última fecha de actividad
  await updateLastConnection("DaniDeDos");
