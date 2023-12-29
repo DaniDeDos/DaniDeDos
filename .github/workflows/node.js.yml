@@ -2,7 +2,7 @@ name: Update README.md
 
 on:
  push:
-   branches:
+   branches:rer
      - main
  workflow_dispatch:
  
