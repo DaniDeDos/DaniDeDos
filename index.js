@@ -53,7 +53,8 @@ async function isBotActive(username) {
  if (response.data && response.data.length > 0) {
  botActive = true;
  }
- await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
+ // Actualizar el estado del bot en el archivo status.json
+ await fs.writeFile("./status.json", JSON.stringify({ botStatus: botActive }), { encoding: "utf-8" });
 }
 
 const getLastActivityDate = async (username) => {
@@ -94,6 +95,5 @@ async function setBotActiveState(state) {
  botStatus.botStatus = state;
  await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
 }
-
 
 main();
