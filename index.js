@@ -43,17 +43,19 @@ function getPartOfDay(commit) {
 async function countCommitsByPartOfDay(username) {
  const commits = await getCommits(username);
  const counts = {
-  morning: 0,
-  afternoon: 0,
-  evening: 0,
-  night: 0
+ morning: 0,
+ afternoon: 0,
+ evening: 0,
+ night: 0
  };
 
  commits.forEach(commit => {
-  const partOfDay = getPartOfDay(commit);
-  counts[partOfDay]++;
+ const partOfDay = getPartOfDay(commit);
+ counts[partOfDay]++;
+ console.log(`Counting commit for ${partOfDay}: ${commit.id}`);
  });
 
+ console.log(`Final counts: ${JSON.stringify(counts)}`);
  return counts;
 }
 
