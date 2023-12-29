@@ -59,17 +59,23 @@ async function countCommitsByPartOfDay(username) {
  return counts;
 }
 
-
 async function countAndUpdateCommitsByPartOfDay(username) {
  const counts = await countCommitsByPartOfDay(username);
 
- // Escribir los resultados en README.md
+ // Leer el contenido de README.md
  let content = await fs.readFile("./README.md", { encoding: "utf-8" });
- const regex = /<p align="right">Commit Counts: .*?<\/p>/;
- const updatedContent = content.replace(regex, `<p align="right">Commit Counts: Morning - ${counts.morning}, Afternoon - ${counts.afternoon}, Evening - ${counts.evening}, Night - ${counts.night}</p>`);
- await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
-}
 
+ // Identificar la sección de conteo de commits
+ const regex = /total de commit mañana: (\d+)/;
+ const match = content.match(regex);
+ if (match) {
+ // Reemplazar la sección de conteo de commits con los nuevos conteos
+ const updatedContent = content.replace(regex, `total de commit mañana: ${counts.morning}`);
+ await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
+ } else {
+ console.error("No se pudo encontrar la sección de conteo de commits");
+ }
+}
 
 
 main();
