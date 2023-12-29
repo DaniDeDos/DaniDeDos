@@ -25,13 +25,10 @@ async function main() {
 
  // Renderizar la plantilla con los datos del bot
  const data = { botStatus: botData.botStatus };
- const updatedContent = compiledTemplate(data);
+ const initialContent = compiledTemplate(data);
 
- // Renderizar la plantilla con los datos del bot
- const updatedContent = compiledTemplate(botData);
-
- // Escribir el contenido actualizado en README.md
- await fs.writeFile('./README.md', updatedContent, 'utf8');
+ // Escribir el contenido inicial en README.md
+ await fs.writeFile('./README.md', initialContent, 'utf8');
 
  // Actualiza el estado del bot
  await isBotActive("DaniDeDos");
@@ -41,10 +38,10 @@ async function main() {
  const botDataAfterUpdate = JSON.parse(botStatusAfterUpdate);
 
  // Renderiza la plantilla con los datos del bot
- const updatedContentAfterUpdate = compiledTemplate(botDataAfterUpdate);
+ const finalContent = compiledTemplate(botDataAfterUpdate);
 
- // Escribe el contenido actualizado en README.md
- await fs.writeFile('./README.md', updatedContentAfterUpdate, 'utf8');
+ // Escribe el contenido final en README.md
+ await fs.writeFile('./README.md', finalContent, 'utf8');
 
  // Actualiza README.md con la última fecha de actividad
  await updateReadme();
