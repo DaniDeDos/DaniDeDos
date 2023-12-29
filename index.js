@@ -19,7 +19,11 @@ async function getCommits(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
    const commits = response.data.filter(event => event.type === 'PushEvent');
-   return commits;
+   return commits.map(commit => ({
+     ...commit,
+     date: new Date(commit.created_at),
+     hour: new Date(commit.created_at).getHours(),
+   }));
  } else {
    throw new Error("No events found for this user");
  }
