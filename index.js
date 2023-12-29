@@ -31,10 +31,7 @@ function calculateCommitsPerPart(commits) {
  });
  return commitsPerPart;
 }
-const ProgressBar = require('progress');
 
-function createProgressBar(title, total) {
- return new ProgressBar(`${title}: [:bar] :percent (:current/:total)`, { total });
 }
 
 function updateProgressBar(bar, value) {
