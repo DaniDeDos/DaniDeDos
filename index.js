@@ -7,7 +7,7 @@ async function isBotActive(username) {
  if (response.data && response.data.length > 0) {
  botActive = true;
  }
- await fs.writeFile("./github/workflows/status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
+ await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
 
 const getLastActivityDate = async (username) => {
