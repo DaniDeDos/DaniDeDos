@@ -17,6 +17,22 @@ export async function updateLastConnection(username) {
  } catch (error) {
  console.error("Ocurrió un error:", error);
  }
+
+  // Actualiza el estado del bot
+ let botStatus = "Offline";
+ if (lastActivityDate) {
+   botStatus = "Online";
+ }
+ let content = await fs.readFile("./README.md", { encoding: "utf-8" });
+ const regex = /<p>Bot activo: .*?<\/p>/;
+ const match = content.match(regex);
+ if (match) {
+   const updatedContent = content.replace(regex, `<p>Bot activo: ${botStatus}</p>`);
+   await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
+   console.log("Actualizado readme.md con éxito");
+ } else {
+   console.error("No se pudo encontrar la línea que contiene el estado del bot");
+ }
 }
 
 async function getLastActivityDate(username) {
@@ -33,23 +49,4 @@ async function getLastActivityDate(username) {
  }
 }
 
-import fs from 'fs/promises';
 
-export async function updateBotStatus(username) {
-
- // Actualiza el estado del bot
- let botStatus = "Offline";
- if (lastActivityDate) {
-   botStatus = "Online";
- }
- let content = await fs.readFile("./README.md", { encoding: "utf-8" });
- const regex = /<p>Bot activo: .*?<\/p>/;
- const match = content.match(regex);
- if (match) {
-   const updatedContent = content.replace(regex, `<p>Bot activo: ${botStatus}</p>`);
-   await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
-   console.log("Actualizado readme.md con éxito");
- } else {
-   console.error("No se pudo encontrar la línea que contiene el estado del bot");
- }
-}
