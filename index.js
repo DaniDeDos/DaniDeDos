@@ -28,12 +28,12 @@ const getLastActivityDate = async (username) => {
 async function updateReadme() {
  try {
  const lastActivityDate = await getLastActivityDate("DaniDeDos");
- let content = await fs.readFile("/README.md", { encoding: "utf-8" });
+ let content = await fs.readFile("./README.md", { encoding: "utf-8" });
  const regex = /<p align="right"><i>ultima coneccion<\/i> : <b>(.*?)<\/b><\/p>/;
  const match = content.match(regex);
  if (match) {
   const updatedContent = content.replace(regex, `<p align="right"><i>ultima coneccion</i> : <b>${lastActivityDate}</b></p>`);
-  await fs.writeFile("/README.md", updatedContent, { encoding: "utf-8" });
+  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
   console.log("Actualizado readme.md con éxito");
  } else {
   console.error("No se pudo encontrar la línea que contiene la última actividad");
