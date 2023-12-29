@@ -32,12 +32,5 @@ function calculateCommitsPerPart(commits) {
  return commitsPerPart;
 }
 
-function updateProgressBar(bar, value) {
- bar.tick(value - bar.curr);
-}
-
-// Usage
-const bars = Array(24).fill().map((_, i) => createProgressBar(`Part ${i}`, maxCommitsPerPart));
-calculateCommitsPerPart(commits).forEach((count, i) => updateProgressBar(bars[i], count));
 
 main();
