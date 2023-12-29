@@ -28,7 +28,7 @@ jobs:
         botActive=$(cat ./status.json | jq '.botActive')
         sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
         git config user.name DaniDeDos
-        git config user.email danideddos@bot.com
+        git config user.email hasashih978@gmail.com
         git add README.md
         git add status.json
         git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
