@@ -13,24 +13,15 @@ async function main() {
  await updateBotStatus("Online");
 }
 
+
 async function getCommits(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
-  const commits = response.data.filter(event => event.type === 'PushEvent');
-  return commits;
+   const commits = response.data.filter(event => event.type === 'PushEvent');
+   return commits;
  } else {
-  throw new Error("No events found for this user");
+   throw new Error("No events found for this user");
  }
-}
-
-function calculateCommitsPerPart(commits) {
- const commitsPerPart = Array(24).fill(0);
- commits.forEach(commit => {
-  const date = new Date(commit.created_at);
-  const hour = date.getUTCHours();
-  commitsPerPart[hour]++;
- });
- return commitsPerPart;
 }
 
 function getPartOfDay(commit) {
@@ -38,33 +29,35 @@ function getPartOfDay(commit) {
  const hour = date.getUTCHours();
 
  if (hour >= 4 && hour < 12) {
-  return 'manana';
+   return 'morning';
  } else if (hour >= 12 && hour < 18) {
-  return 'tarde';
+   return 'afternoon';
  } else if (hour >= 18 && hour < 20) {
-  return 'noche';
+   return 'evening';
  } else {
-  return 'madrugada';
+   return 'night';
  }
 }
 
 async function countCommitsByPartOfDay(username) {
  const commits = await getCommits(username);
  const counts = {
-  manana: 0,
-  tarde: 0,
-  noche: 0,
-  madrugada: 0
+   morning: 0,
+   afternoon: 0,
+   evening: 0,
+   night: 0
  };
 
  commits.forEach(commit => {
-  const partOfDay = getPartOfDay(commit);
-  counts[partOfDay]++;
+   const partOfDay = getPartOfDay(commit);
+   counts[partOfDay]++;
  });
 
- console.log(counts);
+ return counts;
 }
 
-countCommitsByPartOfDay("DaniDeDos");
+// Prueba la función
+countCommitsByPartOfDay("DaniDeDos").then(console.log);
+
 
 main();
