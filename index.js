@@ -1,6 +1,10 @@
 const axios = require("axios");
 const fs = require("fs").promises;
 
+let botActive = /* lógica para determinar si el bot está activo */;
+let updatedContent = content.replace('${botActive}', botActive ? 'Sí' : 'No');
+await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
+
 const getLastActivityDate = async (username) => {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
