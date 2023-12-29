@@ -62,9 +62,24 @@ async function updateReadme() {
 }
 
 async function main() {
- let botActive = await isBotActive("DaniDeDos");
- await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
+ // Actualiza el estado del bot
+ await isBotActive("DaniDeDos");
+
+ // Lee el estado del bot
+ const botStatus = await fs.readFile('./status.json', 'utf8');
+ const botData = JSON.parse(botStatus);
+
+ // Renderiza la plantilla con los datos del bot
+ const updatedContent = compiledTemplate(botData);
+
+ // Escribe el contenido actualizado en README.md
+ await fs.writeFile('./README.md', updatedContent, 'utf8');
+
+ // Actualiza README.md con la última fecha de actividad
  await updateReadme();
 }
+
+main();
+
 
 main();
