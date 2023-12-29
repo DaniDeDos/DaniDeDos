@@ -81,7 +81,8 @@ async function updateReadme() {
  const regex = /<p align="right"><i>ultima coneccion<\/i> : <b>(.*?)<\/b><\/p>/;
  const match = content.match(regex);
  if (match) {
- const updatedContent = content.replace(regex, `<p align="right"><i>ultima coneccion</i> : <b>${lastActivityDate}</b></p>`);
+ const updatedLine = `<p align="right"><i>ultima coneccion</i> : <b>${lastActivityDate}</b></p>`;
+ const updatedContent = content.replace(regex, updatedLine);
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
  console.log("Actualizado readme.md con éxito");
  } else {
@@ -91,6 +92,7 @@ async function updateReadme() {
  console.error("Ocurrió un error:", error);
  }
 }
+
 
 async function setBotActiveState(state) {
  const botStatus = JSON.parse(await fs.readFile('./status.json', 'utf8'));
