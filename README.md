@@ -114,7 +114,7 @@ No activity tracked
 </p>
 
 <p>Bot activo: (.*?)</p>
-<p align="right"><i>ultima coneccion</i> : <b>12/29/2023, 1:05:40 AM</b></p> 
+<p align="right"><i>ultima coneccion</i> : <b>12/29/2023, 1:25:20 AM</b></p> 
 # DaniDeDos
 
 ¡Revisa mi contenido 👇!
