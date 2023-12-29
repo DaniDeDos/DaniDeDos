@@ -66,9 +66,9 @@ async function countAndUpdateCommitsByPartOfDay(username) {
  let content = await fs.readFile("./README.md", { encoding: "utf-8" });
 
  // Identificar la sección de conteo de commits para cada parte del día
-const partsOfDay = ['mañana', 'tarde', 'noche', 'madrugada'];
-const regexes = partsOfDay.map(part => new RegExp(`total de commit ${part}: \\d+`, 'g'));
-const matches = regexes.map(regex => content.match(regex));
+ const partsOfDay = ['mañana', 'tarde', 'noche', 'madrugada'];
+ const regexes = partsOfDay.map(part => new RegExp(`total de commit ${part}: \\d+`, 'g'));
+ const matches = regexes.map(regex => content.match(regex)).filter(match => match !== null);
 
  // Reemplazar la sección de conteo de commits con los nuevos conteos para cada parte del día
  const updatedContent = matches.reduce((acc, match, index) => {
@@ -81,5 +81,6 @@ const matches = regexes.map(regex => content.match(regex));
 
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
 }
+
 
 main();
