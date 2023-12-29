@@ -10,14 +10,6 @@ async function isBotActive(username) {
  await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
 
-async function main() {
- let botActive = await isBotActive("DaniDeDos");
- await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
-}
-
-main().catch(console.error);
-
-
 const getLastActivityDate = async (username) => {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
@@ -51,5 +43,10 @@ async function updateReadme() {
  }
 }
 
-isBotActive();
-updateReadme();
+async function main() {
+ let botActive = await isBotActive("DaniDeDos");
+ await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
+ await updateReadme();
+}
+
+main();
