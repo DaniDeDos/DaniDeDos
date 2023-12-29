@@ -22,7 +22,6 @@ jobs:
        node-version: '16'
    - run: npm install
    - run: npm run update-readme
-     shell: bash
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
    - run: |
