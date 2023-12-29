@@ -31,7 +31,7 @@ async function getCommits(username) {
 
 function getPartOfDay(commit) {
  const date = new Date(commit.created_at);
- const hour = commit.hour(); // Obtiene la hora local
+ const hour = commit.hour; // Obtiene la hora local
 
  if (hour >= 4 && hour < 12) {
   return 'morning';
