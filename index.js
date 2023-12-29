@@ -5,12 +5,12 @@ import fs from 'fs/promises';
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
-  setBotActiveState(false);
+ setBotActiveState(false);
  });
 
  // Agrega un manejador de eventos para el evento 'uncaughtException'
  process.on('uncaughtException', () => {
-  setBotActiveState(false);
+ setBotActiveState(false);
  });
 
  // Leer el archivo de plantilla
@@ -32,7 +32,7 @@ async function main() {
  // Actualiza el estado del bot
  await isBotActive("DaniDeDos");
 
- // Lee el estado del bot
+ // Renderiza la plantilla con los datos del bot
  const botStatus = await fs.readFile('./status.json', 'utf8');
  const botData = JSON.parse(botStatus);
 
@@ -45,6 +45,7 @@ async function main() {
  // Actualiza README.md con la última fecha de actividad
  await updateReadme();
 }
+
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
