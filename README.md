@@ -1,7 +1,7 @@
-total de commit mañana: undefined 
-total de commit tarde: undefined 
-total de commit noche: undefined 
-total de commit madrugada: NaN 
+total de commit mañana: 0 
+total de commit tarde: 0 
+total de commit noche: 0 
+total de commit madrugada: 0 
 
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/29/2023, 10:33:30 PM</b></p> 
