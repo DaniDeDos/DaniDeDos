@@ -14,6 +14,15 @@ export async function updateLastConnection(username) {
  } else {
   console.error("No se pudo encontrar la línea que contiene la última actividad");
  }
+  
+
+ // Actualiza el estado del bot
+ let botStatus = "Offline";
+ if (lastActivityDate) {
+  botStatus = "Online";
+ }
+
+
 }
 
 async function getLastActivityDate(username) {
