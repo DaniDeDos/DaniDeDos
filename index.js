@@ -1,6 +1,7 @@
 import axios from "axios";
-const Handlebars = require('handlebars');
-const fs = require('fs').promises;
+import Handlebars from 'handlebars';
+import { promises as fs } from 'fs';
+
 
 // Leer el archivo de plantilla
 const template = await fs.readFile('./README.md.tpl', 'utf8');
