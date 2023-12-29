@@ -1,5 +1,7 @@
 import axios from "axios";
 import fs from 'fs/promises';
+
+import { updateBotStatus } from './updateBotStatus.js';
 import { updateLastConnection } from './updateLastConnection.js';
 
 async function updateBotStatus(status) {
