@@ -43,33 +43,23 @@ function getPartOfDay(commit) {
 async function countCommitsByPartOfDay(username) {
  const commits = await getCommits(username);
  const counts = {
-   morning: 0,
-   afternoon: 0,
-   evening: 0,
-   night: 0
+  morning: 0,
+  afternoon: 0,
+  evening: 0,
+  night: 0
  };
 
  commits.forEach(commit => {
-   const partOfDay = getPartOfDay(commit);
-   counts[partOfDay]++;
+  const partOfDay = getPartOfDay(commit);
+  counts[partOfDay]++;
  });
 
  return counts;
 }
 
-async function countAndUpdateCommitsByPartOfDay(username) {
- const commits = await getCommits(username);
- const counts = {
-   morning: 0,
-   afternoon: 0,
-   evening: 0,
-   night: 0
- };
 
- commits.forEach(commit => {
-   const partOfDay = getPartOfDay(commit);
-   counts[partOfDay]++;
- });
+async function countAndUpdateCommitsByPartOfDay(username) {
+ const counts = await countCommitsByPartOfDay(username);
 
  // Escribir los resultados en README.md
  let content = await fs.readFile("./README.md", { encoding: "utf-8" });
@@ -77,6 +67,7 @@ async function countAndUpdateCommitsByPartOfDay(username) {
  const updatedContent = content.replace(regex, `<p align="right">Commit Counts: Morning - ${counts.morning}, Afternoon - ${counts.afternoon}, Evening - ${counts.evening}, Night - ${counts.night}</p>`);
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
 }
+
 
 
 main();
