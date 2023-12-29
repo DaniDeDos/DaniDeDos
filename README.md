@@ -123,23 +123,7 @@ R                        1 repo              ░░░░░░░░░░░�
 No activity tracked
 ```
 
-[![linkedin badge](https://img.shields.io/badge/tanyagupta0201-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/tanyagupta0201)
-[![Gmail Badge](https://img.shields.io/badge/tanyagupta.pg@gmail.com-30302f?style=flat&logo=Gmail&logoColor=red)](mailto:tanyagupta.pg@gmail.com)
 
-<img src="https://komarev.com/ghpvc/?username=tanyagupta0201&style=plastic" />
-<!--line-->
-<div>
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1"
-    width="100%"
-  />
-</div>
-<!--header-->
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=venom&color=gradient&height=300&text=Hola!&desc=👋"
-  />
-</p>
 
 <!--info-->
 
