@@ -15,6 +15,7 @@ async function main() {
  await countAndUpdateCommitsByPartOfDay("DaniDeDos");
 }
 
+
 async function getCommits(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
@@ -43,21 +44,22 @@ function getPartOfDay(commit) {
 async function countCommitsByPartOfDay(username) {
  const commits = await getCommits(username);
  const counts = {
- morning: 0,
- afternoon: 0,
- evening: 0,
- night: 0
+   morning: 0,
+   afternoon: 0,
+   evening: 0,
+   night: 0
  };
 
  commits.forEach(commit => {
- const partOfDay = getPartOfDay(commit);
- counts[partOfDay]++;
- console.log(`Counting commit for ${partOfDay}: ${commit.id}`);
+   const partOfDay = getPartOfDay(commit);
+   counts[partOfDay]++;
+   console.log(`Counting commit for ${partOfDay}: ${commit.id}`);
  });
 
  console.log(`Final counts: ${JSON.stringify(counts)}`);
  return counts;
 }
+
 
 async function countAndUpdateCommitsByPartOfDay(username) {
  const counts = await countCommitsByPartOfDay(username);
@@ -72,11 +74,11 @@ async function countAndUpdateCommitsByPartOfDay(username) {
 
  // Reemplazar la sección de conteo de commits con los nuevos conteos para cada parte del día
  const updatedContent = matches.reduce((acc, match, index) => {
-  if (match) {
-    return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
-  } else {
-    return acc;
-  }
+   if (match) {
+     return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
+   } else {
+     return acc;
+   }
  }, content);
 
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
