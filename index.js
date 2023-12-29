@@ -92,10 +92,10 @@ async function updateReadme() {
 
 async function setBotActiveState(state) {
  const botStatus = JSON.parse(await fs.readFile('./status.json', 'utf8'));
- // Verificar el estado y escribir "online" o "offline" en el archivo status.json
- botStatus.botStatus = state ? "online" : "offline";
+ botStatus.botStatus = state;
  await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
 }
+
 
 
 main();
