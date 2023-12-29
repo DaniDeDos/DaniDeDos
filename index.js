@@ -53,11 +53,10 @@ async function updateReadme() {
  const percentages = await calculatePercentages();
 
  let readmeContent = await fs.readFile('./README.md', 'utf8');
- readmeContent = readmeContent.replace(/Morning.*?(\d+\.\d+)%.*/, `Morning: ${percentages.morningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Daytime.*?(\d+\.\d+)%.*/, `Daytime: ${percentages.afternoonPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Evening.*?(\d+\.\d+)%.*/, `Evening: ${percentages.eveningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Night.*?(\d+\.\d+)%.*/, `Night: ${percentages.nightPercentage.toFixed(2)}%`);
-
+ readmeContent = readmeContent.replace(/🌞 Morning.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌞 Morning ${percentages.morningPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/🌆 Daytime.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌆 Daytime ${percentages.afternoonPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/🌃 Evening.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌃 Evening ${percentages.eveningPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/🌙 Night.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌙 Night ${percentages.nightPercentage.toFixed(2)}%`);
 
  // ...
  console.log('Old README content:', readmeContent);
