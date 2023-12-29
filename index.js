@@ -10,6 +10,8 @@ async function main() {
  await updateLastConnection("DaniDeDos");
  // Actualiza el estado del bot
  await updateBotStatus("Online");
+
+updateReadme();
 }
 
 async function countCommits(after) {
@@ -50,7 +52,7 @@ async function updateReadme() {
  await fs.writeFile('./README.md', readmeContent, 'utf8');
 }
 
-updateReadme();
+
 
 
 main();
