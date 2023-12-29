@@ -1,8 +1,8 @@
 
-<p>total de commit mañana: undefined </p> 
-<p>total de commit tarde: undefined </p> 
-<p>total de commit noche: undefined </p> 
-<p>total de commit madrugada: NaN </p> 
+<p>total de commit mañana: 0 </p> 
+<p>total de commit tarde: 0 </p> 
+<p>total de commit noche: 0 </p> 
+<p>total de commit madrugada: 0 </p> 
 
 
 <div style="display: flex; justify-content: space-between;">
