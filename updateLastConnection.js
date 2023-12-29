@@ -16,8 +16,6 @@ export async function updateLastConnection(username) {
  }
 
 
-}
-
 
 async function getLastActivityDate(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
