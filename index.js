@@ -63,5 +63,23 @@ async function countCommitsByPartOfDay(username) {
 
  console.log(counts);
 }
+async function countCommitsByPartOfDay(username) {
+ const commits = await getCommits(username);
+ const counts = {
+   manana: 0,
+   tarde: 0,
+   noche: 0,
+   madrugada: 0
+ };
+
+ commits.forEach(commit => {
+   const partOfDay = getPartOfDay(commit);
+   counts[partOfDay]++;
+ });
+
+ console.log(counts);
+}
+
+countCommitsByPartOfDay("DaniDeDos");
 
 main();
