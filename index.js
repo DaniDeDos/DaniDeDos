@@ -10,12 +10,12 @@ import { updateLastConnection } from './updateLastConnection.js';
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
- setBotActiveState(false);
+ setBotActiveState(Offline);
  });
 
  // Agrega un manejador de eventos para el evento 'uncaughtException'
  process.on('uncaughtException', () => {
- setBotActiveState(false);
+ setBotActiveState(Offline);
  });
 
  // Leer el archivo de plantilla
