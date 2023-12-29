@@ -21,7 +21,19 @@ export async function updateLastConnection(username) {
  if (lastActivityDate) {
   botStatus = "Online";
  }
-
+ content = await fs.readFile("./README.md", { encoding: "utf-8" });
+ const regex2 = /<p>Bot activo: .*?<\/p>/;
+ const match2 = content.match(regex2);
+ if (match2) {
+  const updatedContent = content.replace(regex2, `<p>Bot activo: ${botStatus}</p>`);
+  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
+  console.log("Actualizado readme.md con éxito");
+ } else {
+  console.error("No se pudo encontrar la línea que contiene el estado del bot");
+ }
+ } catch (error) {
+ console.error("Ocurrió un error:", error);
+ }
 
 }
 
