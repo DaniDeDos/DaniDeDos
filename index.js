@@ -49,9 +49,9 @@ async function main() {
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
- let botActive = false;
+ let botActive = Offline;
  if (response.data && response.data.length > 0) {
- botActive = true;
+ botActive = Online;
  }
  await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
@@ -94,6 +94,5 @@ async function setBotActiveState(state) {
  botStatus.botActive = state;
  await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
 }
-
 
 main();
