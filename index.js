@@ -89,10 +89,11 @@ async function updateReadme() {
  }
 }
 
-function setBotActiveState(state) {
- const botStatus = JSON.parse(fs.readFileSync('./status.json', 'utf8'));
+async function setBotActiveState(state) {
+ const botStatus = JSON.parse(await fs.readFile('./status.json', 'utf8'));
  botStatus.botActive = state;
- fs.writeFileSync('./status.json', JSON.stringify(botStatus), 'utf8');
+ await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
 }
+
 
 main();
