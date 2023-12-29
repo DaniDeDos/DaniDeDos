@@ -15,7 +15,6 @@ async function main() {
  await countAndUpdateCommitsByPartOfDay("DaniDeDos");
 }
 
-
 async function getCommits(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  if (response.data && response.data.length > 0) {
@@ -28,16 +27,16 @@ async function getCommits(username) {
 
 function getPartOfDay(commit) {
  const date = new Date(commit.created_at);
- const hour = date.getUTCHours();
+ const hour = date.getHours(); // Obtiene la hora local
 
  if (hour >= 4 && hour < 12) {
-   return 'morning';
+   return 'mañana';
  } else if (hour >= 12 && hour < 18) {
-   return 'afternoon';
+   return 'tarde';
  } else if (hour >= 18 && hour < 20) {
-   return 'evening';
+   return 'noche';
  } else {
-   return 'night';
+   return 'madrugada';
  }
 }
 
@@ -60,7 +59,6 @@ async function countCommitsByPartOfDay(username) {
  return counts;
 }
 
-
 async function countAndUpdateCommitsByPartOfDay(username) {
  const counts = await countCommitsByPartOfDay(username);
 
@@ -68,9 +66,9 @@ async function countAndUpdateCommitsByPartOfDay(username) {
  let content = await fs.readFile("./README.md", { encoding: "utf-8" });
 
  // Identificar la sección de conteo de commits para cada parte del día
- const partsOfDay = ['mañana', 'tarde', 'noche', 'madrugada'];
- const regexes = partsOfDay.map(part => new RegExp(`total de commit ${part}: \\d+`, 'g'));
- const matches = regexes.map(regex => content.match(regex));
+const partsOfDay = ['mañana', 'tarde', 'noche', 'madrugada'];
+const regexes = partsOfDay.map(part => new RegExp(`total de commit ${part}: \\d+`, 'g'));
+const matches = regexes.map(regex => content.match(regex));
 
  // Reemplazar la sección de conteo de commits con los nuevos conteos para cada parte del día
  const updatedContent = matches.reduce((acc, match, index) => {
@@ -83,6 +81,5 @@ async function countAndUpdateCommitsByPartOfDay(username) {
 
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
 }
-
 
 main();
