@@ -32,5 +32,37 @@ function calculateCommitsPerPart(commits) {
  return commitsPerPart;
 }
 
+import moment from 'moment';
+
+function getPartOfDay(commit) {
+ const date = new Date(commit.created_at);
+ const hour = date.getUTCHours();
+
+ if (hour >= 4 && hour < 12) {
+   return 'manana';
+ } else if (hour >= 12 && hour < 18) {
+   return 'tarde';
+ } else if (hour >= 18 && hour < 20) {
+   return 'noche';
+ } else {
+   return 'madrugada';
+ }
+}
+async function countCommitsByPartOfDay(username) {
+ const commits = await getCommits(username);
+ const counts = {
+   manana: 0,
+   tarde: 0,
+   noche: 0,
+   madrugada: 0
+ };
+
+ commits.forEach(commit => {
+   const partOfDay = getPartOfDay(commit);
+   counts[partOfDay]++;
+ });
+
+ console.log(counts);
+}
 
 main();
