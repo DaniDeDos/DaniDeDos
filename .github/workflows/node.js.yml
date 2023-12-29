@@ -22,7 +22,7 @@ jobs:
        node-version: '16'
    - run: npm install
    - run: npm run update-readme
-   
+     shell: bash
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
    - run: |
@@ -31,8 +31,9 @@ jobs:
         git config user.name DaniDeDos
         git config user.email hasashih978@gmail.com
         git add README.md
+        git add status.json
         git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
         git pull origin main
         git push origin main
-
+        shell: bash
 
