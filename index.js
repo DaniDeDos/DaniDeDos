@@ -3,7 +3,7 @@
 import axios from "axios";
 import Handlebars from 'handlebars';
 import fs from 'fs/promises';
-import { isBotActive } from './botStatusUpdater.js';
+import { isBotActive, setBotActiveState } from './botStatusUpdater.js';
 import { updateLastConnection } from './updateLastConnection.js';
 
 
