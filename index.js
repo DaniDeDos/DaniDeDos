@@ -11,8 +11,6 @@ async function main() {
  await updateBotStatus("Online");
 }
 
-const fs = require('fs').promises;
-
 async function readFile() {
    try {
        const data = await fs.readFile('./README.md', 'utf8');
