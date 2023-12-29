@@ -53,4 +53,5 @@ async function updateReadme() {
  }
 }
 
+isBotActive();
 updateReadme();
