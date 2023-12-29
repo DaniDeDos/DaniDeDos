@@ -37,6 +37,15 @@ async function calculatePercentages() {
  const eveningPercentage = (eveningCommits / totalCommits) * 100;
  const nightPercentage = (nightCommits / totalCommits) * 100;
 
+ // ...
+ console.log('Total commits:', totalCommits);
+ console.log('Morning commits:', morningCommits);
+ console.log('Afternoon commits:', afternoonCommits);
+ console.log('Evening commits:', eveningCommits);
+ console.log('Night commits:', nightCommits);
+ // ...
+
+ 
  return { morningPercentage, afternoonPercentage, eveningPercentage, nightPercentage };
 }
 
@@ -49,6 +58,16 @@ async function updateReadme() {
  readmeContent = readmeContent.replace(/Evening.*?(\d+\.\d+)%.*/, `Evening: ${percentages.eveningPercentage.toFixed(2)}%`);
  readmeContent = readmeContent.replace(/Night.*?(\d+\.\d+)%.*/, `Night: ${percentages.nightPercentage.toFixed(2)}%`);
 
+
+ // ...
+ console.log('Old README content:', readmeContent);
+ readmeContent = readmeContent.replace(/Morning.*?(\d+\.\d+)%.*/, `Morning: ${percentages.morningPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/Daytime.*?(\d+\.\d+)%.*/, `Daytime: ${percentages.afternoonPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/Evening.*?(\d+\.\d+)%.*/, `Evening: ${percentages.eveningPercentage.toFixed(2)}%`);
+ readmeContent = readmeContent.replace(/Night.*?(\d+\.\d+)%.*/, `Night: ${percentages.nightPercentage.toFixed(2)}%`);
+ console.log('New README content:', readmeContent);
+ // ...
+ 
  await fs.writeFile('./README.md', readmeContent, 'utf8');
 }
 
