@@ -12,47 +12,37 @@ async function main() {
  await updateBotStatus("Online");
 }
 
-async function getCommits() {
- const result = execSync('git log --pretty="%ai %H"').toString();
- const lines = result.split('\n');
- const commits = lines.map(line => {
-   const parts = line.split(' ');
-   const date = new Date(parts[0]);
-   const hash = parts[1];
-   return {date, hash};
- });
- return commits;
-}
-
-function categorizeCommits(commits) {
- const categories = {
-   morning: [],
-   afternoon: [],
-   evening: [],
-   night: []
- };
- for (const commit of commits) {
-   const hour = commit.date.getHours();
-   if (hour >= 4 && hour < 12) {
-     categories.morning.push(commit);
-   } else if (hour >= 12 && hour < 17) {
-     categories.afternoon.push(commit);
-   } else if (hour >= 17 && hour < 21) {
-     categories.evening.push(commit);
-   } else {
-     categories.night.push(commit);
-   }
+async function getCommits(username) {
+ const response = await axios.get(`https://api.github.com/users/${username}/events`);
+ if (response.data && response.data.length > 0) {
+   const commits = response.data.filter(event => event.type === 'PushEvent');
+   return commits;
+ } else {
+   throw new Error("No events found for this user");
  }
- return categories;
 }
 
-async function printCommitCounts() {
- const commits = await getCommits();
- const categories = categorizeCommits(commits);
- console.log(`Morning commits: ${categories.morning.length}`);
- console.log(`Afternoon commits: ${categories.afternoon.length}`);
- console.log(`Evening commits: ${categories.evening.length}`);
- console.log(`Night commits: ${categories.night.length}`);
+function calculateCommitsPerPart(commits) {
+ const commitsPerPart = Array(24).fill(0);
+ commits.forEach(commit => {
+   const date = new Date(commit.created_at);
+   const hour = date.getUTCHours();
+   commitsPerPart[hour]++;
+ });
+ return commitsPerPart;
 }
+const ProgressBar = require('progress');
+
+function createProgressBar(title, total) {
+ return new ProgressBar(`${title}: [:bar] :percent (:current/:total)`, { total });
+}
+
+function updateProgressBar(bar, value) {
+ bar.tick(value - bar.curr);
+}
+
+// Usage
+const bars = Array(24).fill().map((_, i) => createProgressBar(`Part ${i}`, maxCommitsPerPart));
+calculateCommitsPerPart(commits).forEach((count, i) => updateProgressBar(bars[i], count));
 
 main();
