@@ -32,8 +32,6 @@ function calculateCommitsPerPart(commits) {
  return commitsPerPart;
 }
 
-}
-
 function updateProgressBar(bar, value) {
  bar.tick(value - bar.curr);
 }
