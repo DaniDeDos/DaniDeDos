@@ -5,7 +5,7 @@ async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
  let botActive = false;
  if (response.data && response.data.length > 0) {
-  botActive = true;
+ botActive = true;
  }
  await fs.writeFile("./status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
