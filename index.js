@@ -1,23 +1,50 @@
 import axios from "axios";
 import Handlebars from 'handlebars';
-import { promises as fs } from 'fs';
+import fs from 'fs/promises';
 
+async function main() {
+ // Agrega un manejador de eventos para el evento 'exit'
+ process.on('exit', () => {
+  setBotActiveState(false);
+ });
 
-// Leer el archivo de plantilla
-const template = await fs.readFile('./README.md.tpl', 'utf8');
+ // Agrega un manejador de eventos para el evento 'uncaughtException'
+ process.on('uncaughtException', () => {
+  setBotActiveState(false);
+ });
 
-// Compilar la plantilla
-const compiledTemplate = Handlebars.compile(template);
+ // Leer el archivo de plantilla
+ const template = await fs.readFile('./README.md.tpl', 'utf8');
 
-// Leer el estado del bot
-const botStatus = await fs.readFile('./status.json', 'utf8');
-const botData = JSON.parse(botStatus);
+ // Compilar la plantilla
+ const compiledTemplate = Handlebars.compile(template);
 
-// Renderizar la plantilla con los datos del bot
-const updatedContent = compiledTemplate(botData);
+ // Leer el estado del bot
+ const botStatus = await fs.readFile('./status.json', 'utf8');
+ const botData = JSON.parse(botStatus);
 
-// Escribir el contenido actualizado en README.md
-await fs.writeFile('./README.md', updatedContent, 'utf8');
+ // Renderizar la plantilla con los datos del bot
+ const updatedContent = compiledTemplate(botData);
+
+ // Escribir el contenido actualizado en README.md
+ await fs.writeFile('./README.md', updatedContent, 'utf8');
+
+ // Actualiza el estado del bot
+ await isBotActive("DaniDeDos");
+
+ // Lee el estado del bot
+ const botStatus = await fs.readFile('./status.json', 'utf8');
+ const botData = JSON.parse(botStatus);
+
+ // Renderiza la plantilla con los datos del bot
+ const updatedContent = compiledTemplate(botData);
+
+ // Escribe el contenido actualizado en README.md
+ await fs.writeFile('./README.md', updatedContent, 'utf8');
+
+ // Actualiza README.md con la última fecha de actividad
+ await updateReadme();
+}
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
@@ -34,9 +61,9 @@ const getLastActivityDate = async (username) => {
  // Find the latest event that is a PushEvent
  const latestPushEvent = response.data.find(event => event.type === 'PushEvent');
  if (latestPushEvent) {
-  return new Date(latestPushEvent.created_at).toLocaleString();
+ return new Date(latestPushEvent.created_at).toLocaleString();
  } else {
-  throw new Error("No PushEvent found for this user");
+ throw new Error("No PushEvent found for this user");
  }
  } else {
  throw new Error("No events found for this user");
@@ -61,22 +88,10 @@ async function updateReadme() {
  }
 }
 
-async function main() {
- // Actualiza el estado del bot
- await isBotActive("DaniDeDos");
-
- // Lee el estado del bot
- const botStatus = await fs.readFile('./status.json', 'utf8');
- const botData = JSON.parse(botStatus);
-
- // Renderiza la plantilla con los datos del bot
- const updatedContent = compiledTemplate(botData);
-
- // Escribe el contenido actualizado en README.md
- await fs.writeFile('./README.md', updatedContent, 'utf8');
-
- // Actualiza README.md con la última fecha de actividad
- await updateReadme();
+function setBotActiveState(state) {
+ const botStatus = JSON.parse(fs.readFileSync('./status.json', 'utf8'));
+ botStatus.botActive = state;
+ fs.writeFileSync('./status.json', JSON.stringify(botStatus), 'utf8');
 }
 
 main();
