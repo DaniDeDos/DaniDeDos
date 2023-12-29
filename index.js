@@ -31,19 +31,20 @@ async function getCommits(username) {
  }
 }
 
-
 function getPartOfDay(commit) {
  const date = new Date(commit.created_at);
- const hour = commit.hour; // Obtiene la hora local
+ const hour = date.getHours(); // Obtiene la hora local
+
+ console.log('Commit hour:', hour);
 
  if (hour >= 4 && hour < 12) {
-  return 'morning';
+ return 'morning';
  } else if (hour >= 12 && hour < 18) {
-  return 'afternoon';
+ return 'afternoon';
  } else if (hour >= 18 && hour < 20) {
-  return 'evening';
+ return 'evening';
  } else {
-  return 'night';
+ return 'night';
  }
 }
 
