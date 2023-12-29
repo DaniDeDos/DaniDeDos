@@ -24,6 +24,7 @@ jobs:
    - run: npm run update-readme
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
+   - run: echo "Bot status: $(cat ./status.json)"
    - run: |
         botActive=$(cat ./status.json | jq '.botActive')
         sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
