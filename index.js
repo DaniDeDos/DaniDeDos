@@ -7,7 +7,7 @@ async function isBotActive(username) {
  if (response.data && response.data.length > 0) {
  botActive = true;
  }
- await fs.writeFile("./github/workflows/status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
+ await fs.writeFile("/github/workflows/status.json", JSON.stringify({ botActive }), { encoding: "utf-8" });
 }
 
 const getLastActivityDate = async (username) => {
@@ -28,20 +28,21 @@ const getLastActivityDate = async (username) => {
 async function updateReadme() {
  try {
  const lastActivityDate = await getLastActivityDate("DaniDeDos");
- let content = await fs.readFile("./README.md", { encoding: "utf-8" });
+ let content = await fs.readFile("/README.md", { encoding: "utf-8" });
  const regex = /<p align="right"><i>ultima coneccion<\/i> : <b>(.*?)<\/b><\/p>/;
  const match = content.match(regex);
  if (match) {
-   const updatedContent = content.replace(regex, `<p align="right"><i>ultima coneccion</i> : <b>${lastActivityDate}</b></p>`);
-   await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
-   console.log("Actualizado readme.md con éxito");
+  const updatedContent = content.replace(regex, `<p align="right"><i>ultima coneccion</i> : <b>${lastActivityDate}</b></p>`);
+  await fs.writeFile("/README.md", updatedContent, { encoding: "utf-8" });
+  console.log("Actualizado readme.md con éxito");
  } else {
-   console.error("No se pudo encontrar la línea que contiene la última actividad");
+  console.error("No se pudo encontrar la línea que contiene la última actividad");
  }
  } catch (error) {
  console.error("Ocurrió un error:", error);
  }
 }
+
 
 async function main() {
  let botActive = await isBotActive("DaniDeDos");
