@@ -10,67 +10,49 @@ async function main() {
  await updateLastConnection("DaniDeDos");
  // Actualiza el estado del bot
  await updateBotStatus("Online");
-
-updateReadme();
 }
 
-async function countCommits(after) {
- const output = execSync(`git rev-list --count HEAD --after="${after}"`).toString();
- return parseInt(output, 10);
+async function getCommits() {
+ const result = execSync('git log --pretty="%ai %H"').toString();
+ const lines = result.split('\n');
+ const commits = lines.map(line => {
+   const parts = line.split(' ');
+   const date = new Date(parts[0]);
+   const hash = parts[1];
+   return {date, hash};
+ });
+ return commits;
 }
 
-async function calculatePercentages() {
- const now = new Date();
- const morning = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0);
- const afternoon = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0, 0);
- const evening = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 0, 0);
- const night = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59);
-
- const totalCommits = await countCommits('1970-01-01');
- const morningCommits = await countCommits(morning.toISOString());
- const afternoonCommits = await countCommits(afternoon.toISOString());
- const eveningCommits = await countCommits(evening.toISOString());
- const nightCommits = await countCommits(night.toISOString());
-
- const morningPercentage = (morningCommits / totalCommits) * 100;
- const afternoonPercentage = (afternoonCommits / totalCommits) * 100;
- const eveningPercentage = (eveningCommits / totalCommits) * 100;
- const nightPercentage = (nightCommits / totalCommits) * 100;
-
- // ...
- console.log('Total commits:', totalCommits);
- console.log('Morning commits:', morningCommits);
- console.log('Afternoon commits:', afternoonCommits);
- console.log('Evening commits:', eveningCommits);
- console.log('Night commits:', nightCommits);
- // ...
-
- 
- return { morningPercentage, afternoonPercentage, eveningPercentage, nightPercentage };
+function categorizeCommits(commits) {
+ const categories = {
+   morning: [],
+   afternoon: [],
+   evening: [],
+   night: []
+ };
+ for (const commit of commits) {
+   const hour = commit.date.getHours();
+   if (hour >= 4 && hour < 12) {
+     categories.morning.push(commit);
+   } else if (hour >= 12 && hour < 17) {
+     categories.afternoon.push(commit);
+   } else if (hour >= 17 && hour < 21) {
+     categories.evening.push(commit);
+   } else {
+     categories.night.push(commit);
+   }
+ }
+ return categories;
 }
 
-async function updateReadme() {
- const percentages = await calculatePercentages();
-
- let readmeContent = await fs.readFile('./README.md', 'utf8');
- readmeContent = readmeContent.replace(/🌞 Morning.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌞 Morning ${percentages.morningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/🌆 Daytime.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌆 Daytime ${percentages.afternoonPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/🌃 Evening.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌃 Evening ${percentages.eveningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/🌙 Night.*?(\d+)\scommits.*?(\d+\.\d+)%/, `🌙 Night ${percentages.nightPercentage.toFixed(2)}%`);
-
- // ...
- console.log('Old README content:', readmeContent);
- readmeContent = readmeContent.replace(/Morning.*?(\d+\.\d+)%.*/, `Morning: ${percentages.morningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Daytime.*?(\d+\.\d+)%.*/, `Daytime: ${percentages.afternoonPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Evening.*?(\d+\.\d+)%.*/, `Evening: ${percentages.eveningPercentage.toFixed(2)}%`);
- readmeContent = readmeContent.replace(/Night.*?(\d+\.\d+)%.*/, `Night: ${percentages.nightPercentage.toFixed(2)}%`);
- console.log('New README content:', readmeContent);
- // ...
- 
- await fs.writeFile('./README.md', readmeContent, 'utf8');
+async function printCommitCounts() {
+ const commits = await getCommits();
+ const categories = categorizeCommits(commits);
+ console.log(`Morning commits: ${categories.morning.length}`);
+ console.log(`Afternoon commits: ${categories.afternoon.length}`);
+ console.log(`Evening commits: ${categories.evening.length}`);
+ console.log(`Night commits: ${categories.night.length}`);
 }
-
-
-
 
 main();
