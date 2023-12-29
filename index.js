@@ -7,7 +7,7 @@ async function main() {
  process.on('exit', () => {
  setBotActiveState(false);
  });
-
+   
  // Agrega un manejador de eventos para el evento 'uncaughtException'
  process.on('uncaughtException', () => {
  setBotActiveState(false);
