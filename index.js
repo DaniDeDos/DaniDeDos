@@ -30,15 +30,16 @@ function getPartOfDay(commit) {
  const hour = date.getHours(); // Obtiene la hora local
 
  if (hour >= 4 && hour < 12) {
-   return 'mañana';
+  return 'morning';
  } else if (hour >= 12 && hour < 18) {
-   return 'tarde';
+  return 'afternoon';
  } else if (hour >= 18 && hour < 20) {
-   return 'noche';
+  return 'evening';
  } else {
-   return 'madrugada';
+  return 'night';
  }
 }
+
 
 async function countCommitsByPartOfDay(username) {
  const commits = await getCommits(username);
@@ -66,22 +67,20 @@ async function countAndUpdateCommitsByPartOfDay(username) {
  let content = await fs.readFile("./README.md", { encoding: "utf-8" });
 
  // Identificar la sección de conteo de commits para cada parte del día
- const partsOfDay = ['mañana', 'tarde', 'noche', 'madrugada'];
+ const partsOfDay = ['morning', 'afternoon', 'evening', 'night'];
  const regexes = partsOfDay.map(part => new RegExp(`total de commit ${part}: \\d+`, 'g'));
  const matches = regexes.map(regex => content.match(regex)).filter(match => match !== null);
 
  // Reemplazar la sección de conteo de commits con los nuevos conteos para cada parte del día
  const updatedContent = matches.reduce((acc, match, index) => {
-  if (match) {
-    return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
-  } else {
-    return acc;
-  }
+ if (match) {
+   return acc.replace(regexes[index], `total de commit ${partsOfDay[index]}: ${counts[partsOfDay[index]]}`);
+ } else {
+   return acc;
+ }
  }, content);
 
  await fs.writeFile("./README.md", updatedContent, { encoding: "utf-8" });
 }
-
-
 
 main();
