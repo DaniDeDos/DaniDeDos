@@ -91,8 +91,9 @@ async function updateReadme() {
 
 async function setBotActiveState(state) {
  const botStatus = JSON.parse(await fs.readFile('./status.json', 'utf8'));
- botStatus.botActive = state;
+ botStatus.botStatus = state;
  await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
 }
+
 
 main();
