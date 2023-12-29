@@ -1,13 +1,14 @@
 import axios from "axios";
 import Handlebars from 'handlebars';
 import fs from 'fs/promises';
+import { updateLastConnection } from './updateLastConnection.js';
 
 async function main() {
  // Agrega un manejador de eventos para el evento 'exit'
  process.on('exit', () => {
  setBotActiveState(false);
  });
-   
+
  // Agrega un manejador de eventos para el evento 'uncaughtException'
  process.on('uncaughtException', () => {
  setBotActiveState(false);
@@ -44,9 +45,8 @@ async function main() {
  await fs.writeFile('./README.md', finalContent, 'utf8');
 
  // Actualiza README.md con la última fecha de actividad
- await updateReadme();
+ await updateLastConnection("DaniDeDos");
 }
-
 
 async function isBotActive(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
@@ -57,22 +57,6 @@ async function isBotActive(username) {
  // Actualizar el estado del bot en el archivo status.json
  await fs.writeFile("./status.json", JSON.stringify({ botStatus: botActive }), { encoding: "utf-8" });
 }
-
-
-const getLastActivityDate = async (username) => {
- const response = await axios.get(`https://api.github.com/users/${username}/events`);
- if (response.data && response.data.length > 0) {
- // Find the latest event that is a PushEvent
- const latestPushEvent = response.data.find(event => event.type === 'PushEvent');
- if (latestPushEvent) {
- return new Date(latestPushEvent.created_at).toLocaleString();
- } else {
- throw new Error("No PushEvent found for this user");
- }
- } else {
- throw new Error("No events found for this user");
- }
-};
 
 async function updateReadme() {
  try {
