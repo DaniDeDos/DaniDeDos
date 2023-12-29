@@ -13,4 +13,10 @@ async function isBotActive(username) {
  await fs.writeFile("./status.json", JSON.stringify({ botStatus: botActive }), { encoding: "utf-8" });
 }
 
-export { isBotActive };
+async function setBotActiveState(state) {
+ const botStatus = JSON.parse(await fs.readFile('./status.json', 'utf8'));
+ botStatus.botStatus = state;
+ await fs.writeFile('./status.json', JSON.stringify(botStatus), 'utf8');
+}
+
+export { isBotActive, setBotActiveState };
