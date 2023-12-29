@@ -14,8 +14,7 @@ export async function updateLastConnection(username) {
  } else {
   console.error("No se pudo encontrar la línea que contiene la última actividad");
  }
-
-
+}
 
 async function getLastActivityDate(username) {
  const response = await axios.get(`https://api.github.com/users/${username}/events`);
