@@ -3,7 +3,14 @@
 <p>total de commit afternoon: 0 </p> 
 <p>total de commit evening: 0 </p> 
 <p>total de commit night: 30 </p> 
+**I'm an Early 🐤** 
 
+```text
+🌞 Morning                594 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.52 % 
+🌆 Daytime                1795 commits        █████████░░░░░░░░░░░░░░░░   37.84 % 
+🌃 Evening                1514 commits        ████████░░░░░░░░░░░░░░░░░   31.91 % 
+🌙 Night                  841 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.73 % 
+```
 
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 12:18:35 AM</b></p> 
