@@ -25,7 +25,7 @@ jobs:
    - run: npm run update-readme
      env:
         README_API_KEY: ${{ secrets.README_API_KEY }}
-        WAKA_API_KEY: ${{ secrets.WAKA_API_KEY }}
+        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         
    - run: |
         botActive=$(cat ./status.json | jq '.botActive')
