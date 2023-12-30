@@ -78,7 +78,7 @@ No activity tracked
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=FF880F&title_color=448EE4&border_color=FF880F" />
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=FF880F&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 <br />
 <br />
@@ -91,7 +91,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:10:54 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:07:18 PM</b></p> 
 
 <!--
     
