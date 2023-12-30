@@ -1,7 +1,9 @@
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
+<div>
 <img src="https://img.shields.io/badge/GitHub%20Action%20Status-Online-brightgreen?style=flat&logo=githubactions&logoColor=%23ffffff&labelColor=%23181717&color=%232088FF" align="right" />
-
-## 
+<h4>hola papu</h4>
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1" width = "100%">
+</div>
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
 <div>
@@ -93,7 +95,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 5:31:06 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 5:30:53 PM</b></p> 
 
 <!--
   
