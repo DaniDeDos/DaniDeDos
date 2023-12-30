@@ -1,11 +1,13 @@
 <!--START_SECTION:waka-->
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2725-blue)
 
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-9.4%20thousand%20lines%20of%20code-blue)
+
 **🐱 My GitHub Data** 
 
 > 📦 1.1 kB Used in GitHub's Storage 
  > 
-> 🏆 1,800 Contributions in the Year 2023
+> 🏆 1,763 Contributions in the Year 2023
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -26,7 +28,7 @@ JavaScript               2 repos             ███████████�
 ![Lines of Code chart](https://raw.githubusercontent.com/DaniDeDos/DaniDeDos/master/assets/bar_graph.png)
 
 
- Last Updated on 30/12/2023 02:53:19 UTC
+ Last Updated on 30/12/2023 03:10:01 UTC
 <!--END_SECTION:waka-->
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 3:09:27 AM</b></p> 
