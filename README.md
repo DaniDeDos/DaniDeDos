@@ -78,7 +78,7 @@ No activity tracked
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=FF880F&title_color=000000&border_color=FF880F" />
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=FF880F&title_color=448EE4&border_color=FF880F" />
 </a>
 <br />
 <br />
