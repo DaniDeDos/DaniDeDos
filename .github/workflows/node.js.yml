@@ -40,5 +40,5 @@ jobs:
        git add README.md
        git add status.json
        git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-       git pull origin master
+       git pull --rebase origin master
        git push origin master
