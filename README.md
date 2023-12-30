@@ -1,3 +1,6 @@
+![AkuraDiary's github stats](https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=tokyonight)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=tokyonight" alt="mystreak"/>
+
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
 <div>
 <img src="https://img.shields.io/badge/GitHub%20Action%20Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
@@ -7,7 +10,7 @@
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
 <div>
-  <img src="https://private-user-images.githubusercontent.com/151276855/293449487-2f415cf7-682b-453d-9e65-ceaba3e9e423.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDM5MjMxOTcsIm5iZiI6MTcwMzkyMjg5NywicGF0aCI6Ii8xNTEyNzY4NTUvMjkzNDQ5NDg3LTJmNDE1Y2Y3LTY4MmItNDUzZC05ZTY1LWNlYWJhM2U5ZTQyMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjMxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIzMFQwNzU0NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTdiZThiMmU4YWJlZTYxYzU1ZjgyZGI0ZWY1ZmEwYmM2ODE4ZjZmNGJlM2ViZWZlOGEyZTJiZGNkY2NhMzVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O9_xJBF_bv-SpBu-7VBEbTuXCdW-DvU8PrelCKtNTj4" width="100%" />
+<img src="https://private-user-images.githubusercontent.com/151276855/293449487-2f415cf7-682b-453d-9e65-ceaba3e9e423.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDM5MjMxOTcsIm5iZiI6MTcwMzkyMjg5NywicGF0aCI6Ii8xNTEyNzY4NTUvMjkzNDQ5NDg3LTJmNDE1Y2Y3LTY4MmItNDUzZC05ZTY1LWNlYWJhM2U5ZTQyMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjMxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIzMFQwNzU0NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTdiZThiMmU4YWJlZTYxYzU1ZjgyZGI0ZWY1ZmEwYmM2ODE4ZjZmNGJlM2ViZWZlOGEyZTJiZGNkY2NhMzVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O9_xJBF_bv-SpBu-7VBEbTuXCdW-DvU8PrelCKtNTj4" width="100%" />
 </div>
 <br />
 <div align="center">
@@ -22,21 +25,19 @@
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 <div>
   
-<h2>Skills</h2>
-
-
-----
+<h2> Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
   <summary><b>Styles and Markup</b></summary>
 
 </p>
+<img align='right' width='300' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
 
 > <img src="https://img.shields.io/badge/-html5-000000?style=for-the-badge&logo=html5&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-css3-000000?style=for-the-badge&logo=css3&color=000000&logoColor=000&labelColor=FF8C00">
 </details>
-<img align='right' width='300' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
+
 <!--------------------------------------------------- Lenguajes de programacion ------------------------------------------------->
 <details open>
   <summary><b>Programming Languages</b></summary>
@@ -73,19 +74,11 @@
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%" />
 </div>
 
-<h2>🌟 Github Stats</h2>
-<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
-<img src = "https://github-readme-stats.vercel.app/api/wakatime?username=DaniDeDos" />
-
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DaniDeDos)](https://github.com/anuraghazra/github-readme-stats)
-
 ```txt
 No activity tracked
 ```
 
 <!--info-->
-----
-
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
@@ -94,6 +87,10 @@ No activity tracked
 <br />
 <br />
 
+<h2>🌟 Github Stats</h2>
+
+Browsers
+Operating Systems
 <!--footer-->
 <p align="center">
   <img
@@ -102,9 +99,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 11:32:36 PM</b></p> 
-
-----
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 11:15:05 PM</b></p> 
 
 <!--
     
