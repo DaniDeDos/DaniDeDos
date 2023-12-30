@@ -1,8 +1,15 @@
 
 <!--START_SECTION:waka-->
-<!--
+**I Mostly Code in JavaScript** 
 
- -->
+```text
+JavaScript               2 repos             █████████████████████████   100.00 % 
+```
+
+
+
+
+ Last Updated on 30/12/2023 03:50:38 UTC
 <!--END_SECTION:waka-->
 
 <div style="display: flex; justify-content: space-between;">
