@@ -22,7 +22,6 @@
 <details open>
   <summary><b>Programming Languages</b></summary>
 
-
   > <img src="https://img.shields.io/badge/JavaScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%23F7DF1E&labelColor=%23F7DF1E&color=%23808080"/>
   > <img src="https://img.shields.io/badge/TypeScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%233178C6&labelColor=%233178C6&color=%23808080"/>
   
@@ -35,6 +34,7 @@
 </details>
 <details open>
   <summary><b>Databases and Cloud Hosting</b></summary>
+  
   > <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=flat&logo=postgresql&logoColor=%20%23ffffff&labelColor=%234169E1&color=%23333333" />
   > <img src="https://img.shields.io/badge/MongoDB-brightgreen?style=flat&logo=mongodb&logoColor=%20%23ffffff&labelColor=%2347A248&color=%23333333" />
   > <img src="https://img.shields.io/badge/GitHub%20Pages-brightgreen?style=flat&logo=githubpages&logoColor=%20%23ffffff&labelColor=%23222222&color=%23333333" />
