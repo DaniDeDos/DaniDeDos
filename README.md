@@ -1,8 +1,8 @@
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
 <div>
-<img src="https://img.shields.io/badge/GitHub%20Action%20Status-Online-brightgreen?style=flat&logo=githubactions&logoColor=%23ffffff&labelColor=%23181717&color=%232088FF" align="right" />
+<img src="https://img.shields.io/badge/GitHub%20Action%20Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
 <h4>hola papu</h4>
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 </div>
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail&color=151515&logoColor=000&labelColor=FF880F">
   <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=151515&logoColor=000&labelColor=FF880F">
 </div>
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
  <h2>About me</h2>
 
@@ -66,7 +66,7 @@
 </details>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
 </div>
-<h2>Github Stats</h2>
+<h2>Github Stats 🌟</h2>
 
 ```txt
 No activity tracked
@@ -74,7 +74,7 @@ No activity tracked
 
 <!--info-->
 
-🌟
+
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
@@ -91,7 +91,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 9:54:47 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 9:47:17 PM</b></p> 
 
 <!--
     
