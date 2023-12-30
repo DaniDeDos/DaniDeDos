@@ -69,6 +69,10 @@
 </div>
 
 <h2>🌟 Github Stats</h2>
+<img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
+<img src = "https://github-readme-stats.vercel.app/api/wakatime?username=DaniDeDos" />
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DaniDeDos)](https://github.com/anuraghazra/github-readme-stats)
 
 ```txt
 No activity tracked
