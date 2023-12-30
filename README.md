@@ -24,14 +24,19 @@
   
 <h2>Skills</h2>
 
+
+----
+
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
   <summary><b>Styles and Markup</b></summary>
 
+</p>
+
 > <img src="https://img.shields.io/badge/-html5-000000?style=for-the-badge&logo=html5&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-css3-000000?style=for-the-badge&logo=css3&color=000000&logoColor=000&labelColor=FF8C00">
 </details>
-
+<img align='right' width='300' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
 <!--------------------------------------------------- Lenguajes de programacion ------------------------------------------------->
 <details open>
   <summary><b>Programming Languages</b></summary>
@@ -51,7 +56,7 @@
 > <img src="https://img.shields.io/badge/-postgresql-000000?style=for-the-badge&logo=postgresql&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-mongodb-000000?style=for-the-badge&logo=mongodb&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-githubpages-000000?style=for-the-badge&logo=githubpages&color=000000&logoColor=000&labelColor=FF8C00">
-  
+</p>
 </details>
 <details closed>
   <summary><b>Software and Tools</b></summary>
@@ -97,7 +102,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 10:58:29 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 10:51:02 PM</b></p> 
 
 <!--
     
