@@ -23,4 +23,5 @@ jobs:
           SHOW_LOC_CHART: "False"
           SHOW_COMMIT: "True"
           SHOW_DAYS_OF_WEEK: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
           LOCALE: "en"
