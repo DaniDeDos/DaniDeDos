@@ -5,32 +5,6 @@
 <p>total de commit night: 30 </p> 
 
 <!--START_SECTION:waka-->
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2549-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-9.2%20thousand%20lines%20of%20code-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 979 Bytes Used in GitHub's Storage 
- > 
-> 🏆 1,702 Contributions in the Year 2023
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 2 Public Repositories 
- > 
-> 🔑 0 Private Repositories 
- > 
-**I Mostly Code in JavaScript** 
-
-```text
-JavaScript               2 repos             █████████████████████████   100.00 % 
-```
-
-
-
-
- Last Updated on 30/12/2023 01:01:49 UTC
 <!--END_SECTION:waka-->
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 1:03:30 AM</b></p> 
