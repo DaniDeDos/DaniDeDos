@@ -1,44 +1,38 @@
-name: Update README and Stats
+ name: Update README.md
 
 on:
  push:
    branches:
      - master
- schedule:
-   - cron: '30 18 * * *'
  workflow_dispatch:
-
+ 
+ schedule:
+   - cron: "* * * * *"
+   
 jobs:
  build:
    runs-on: ubuntu-latest
-
+   
    steps:
    - uses: actions/checkout@v3
      with:
        token: ${{ secrets.GH_TOKEN }}
-
+       
    - uses: actions/setup-node@v1
      with:
        node-version: '16'
-
    - run: npm install
-
    - run: npm run update-readme
      env:
-       GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-   - uses: anmol098/waka-readme-stats@master
-     with:
-       WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-       GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        
    - run: |
-       botActive=$(cat ./status.json | jq '.botActive')
-       sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
-       git config user.name DaniDeDos
-       git config user.email hasashih978@gmail.com
-       git add README.md
-       git add status.json
-       git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-       git pull --rebase origin master
-       git push origin master
+        botActive=$(cat ./status.json | jq '.botActive')
+        sed -i "s|<p>Bot activo: .*?</p>|<p>Bot activo: ${botActive}</p>|" README.md
+        git config user.name DaniDeDos
+        git config user.email hasashih978@gmail.com
+        git add README.md
+        git add status.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
+        git pull origin master
+        git push origin master
