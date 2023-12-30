@@ -13,12 +13,8 @@ JavaScript               2 repos             ███████████�
 
 
 
-**Timeline**
 
-![Lines of Code chart](https://raw.githubusercontent.com/DaniDeDos/DaniDeDos/master/assets/bar_graph.png)
-
-
- Last Updated on 30/12/2023 02:04:14 UTC
+ Last Updated on 30/12/2023 02:09:25 UTC
 <!--END_SECTION:waka-->
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 2:08:55 AM</b></p> 
