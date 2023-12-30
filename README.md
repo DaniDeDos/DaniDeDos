@@ -5,13 +5,32 @@
 <p>total de commit night: 28 </p> 
 
 <!--START_SECTION:waka-->
-**I'm an Early 🐤** 
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2549-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-9.0%20thousand%20lines%20of%20code-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 979 Bytes Used in GitHub's Storage 
+ > 
+> 🏆 1,679 Contributions in the Year 2023
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 2 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I Mostly Code in JavaScript** 
+
 ```text
-🌞 Morning                594 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.52 % 
-🌆 Daytime                1795 commits        █████████░░░░░░░░░░░░░░░░   37.84 % 
-🌃 Evening                1514 commits        ████████░░░░░░░░░░░░░░░░░   31.91 % 
-🌙 Night                  841 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.73 % 
+JavaScript               2 repos             █████████████████████████   100.00 % 
 ```
+
+
+
+
+ Last Updated on 30/12/2023 00:52:24 UTC
 <!--END_SECTION:waka-->
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 12:50:39 AM</b></p> 
