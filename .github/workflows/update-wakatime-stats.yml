@@ -21,4 +21,5 @@ jobs:
           SHOW_PROFILE_VIEWS: "False"
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "True"
+          SHOW_COMMIT: "True"
           LOCALE: "en"
