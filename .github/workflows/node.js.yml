@@ -16,7 +16,7 @@ jobs:
    steps:
    - uses: actions/checkout@v3
      with:
-       token: ${{ secrets.README_API_KEY }}
+       token: ${{ secrets.GH_TOKEN }}
        
    - uses: actions/setup-node@v1
      with:
@@ -24,8 +24,7 @@ jobs:
    - run: npm install
    - run: npm run update-readme
      env:
-        README_API_KEY: ${{ secrets.README_API_KEY }}
-        WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
         
    - run: |
         botActive=$(cat ./status.json | jq '.botActive')
