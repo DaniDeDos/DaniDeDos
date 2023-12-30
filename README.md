@@ -2,7 +2,7 @@
 <div>
 <img src="https://img.shields.io/badge/GitHub%20Action%20Status-Online-brightgreen?style=flat&logo=githubactions&logoColor=%23ffffff&labelColor=%23181717&color=%232088FF" align="right" />
 <h4>hola papu</h4>
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1" width = "100%">
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
 </div>
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
@@ -82,7 +82,7 @@ No activity tracked
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&theme=react&repo=react-TodoListApp" />
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&theme=transparent&repo=react-TodoListApp" />
 </a>
 <br />
 <br />
@@ -95,7 +95,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 5:47:05 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 5:42:41 PM</b></p> 
 
 <!--
   
