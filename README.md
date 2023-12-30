@@ -5,7 +5,34 @@
 <p>total de commit night: 28 </p> 
 
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2725-blue)
 
+**🐱 My GitHub Data** 
+
+> 📦 979 Bytes Used in GitHub's Storage 
+ > 
+> 🏆 1,702 Contributions in the Year 2023
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 2 Public Repositories 
+ > 
+> 🔑 0 Private Repositories 
+ > 
+**I Mostly Code in JavaScript** 
+
+```text
+JavaScript               2 repos             █████████████████████████   100.00 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/DaniDeDos/DaniDeDos/master/assets/bar_graph.png)
+
+
+ Last Updated on 30/12/2023 01:39:29 UTC
 <!--END_SECTION:waka-->
 <div style="display: flex; justify-content: space-between;">
  <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 1:35:31 AM</b></p> 
