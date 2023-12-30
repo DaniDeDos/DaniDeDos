@@ -16,12 +16,12 @@
 </div>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
 
- ## <summary>About me</summary>
+ <h2>About me</h2>
 
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 <div>
   
- ## <summary>Skills</summary>
+<h2>Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
@@ -78,7 +78,7 @@ No activity tracked
 
 <h2>My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=FF880F&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 <br />
 <br />
@@ -91,7 +91,7 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:16:17 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:15:10 PM</b></p> 
 
 <!--
     
