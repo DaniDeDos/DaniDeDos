@@ -86,12 +86,12 @@ No activity tracked
 <!--footer-->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=Waving&color=gradient&height=80&section=footer"
+    src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer"
     width="100%"
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:23:57 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 8:20:49 PM</b></p> 
 
 <!--
     
