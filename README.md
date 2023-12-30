@@ -16,7 +16,8 @@
 </div>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
- <h2>About me</h2>
+<!----------------------------------------------------------- About me ----------------------------------------------------------> 
+<h2>👤 About me</h2>
 
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 <div>
@@ -66,7 +67,7 @@
 </details>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%">
 </div>
-<h2>Github Stats 🌟</h2>
+<h2>🌟 Github Stats</h2>
 
 ```txt
 No activity tracked
