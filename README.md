@@ -1,16 +1,7 @@
 
 <!--START_SECTION:waka-->
 <!--
-**I Mostly Code in JavaScript** 
 
-```text
-JavaScript               2 repos             █████████████████████████   100.00 % 
-```
-
-
-
-
- Last Updated on 30/12/2023 03:42:45 UTC
  -->
 <!--END_SECTION:waka-->
 
