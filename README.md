@@ -7,30 +7,33 @@
 
 <h2>About me</h2>
 
-## <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture> 
-<h2>Skills</h2>
+## <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
+
+<details open>
+  <summary><h2>Skills</h2></summary>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
   <summary><b>Styles and Markup</b></summary>
 
-  > <img src="https://img.shields.io/badge/HTML-brightgreen?style=flat-square&logo=html5&logoColor=%20%23ffffff&labelColor=%23E34F26&color=%23333333" />
-  > <img src="https://img.shields.io/badge/CSS%20%7C%2034%25-brightgreen?style=flat-square&logo=css3&logoColor=%20%23ffffff&labelColor=%231572B6&color=%23333333" />
-  
+> <img src="https://img.shields.io/badge/HTML-brightgreen?style=flat-square&logo=html5&logoColor=%20%23ffffff&labelColor=%23E34F26&color=%23333333" />
+> <img src="https://img.shields.io/badge/CSS%20%7C%2034%25-brightgreen?style=flat-square&logo=css3&logoColor=%20%23ffffff&labelColor=%231572B6&color=%23333333" />
+
 </details>
 <!--------------------------------------------------- Lenguajes de programacion ------------------------------------------------->
 <details open>
   <summary><b>Programming Languages</b></summary>
 
-  > <img src="https://img.shields.io/badge/JavaScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%23F7DF1E&labelColor=%23F7DF1E&color=%23808080"/>
-  > <img src="https://img.shields.io/badge/TypeScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%233178C6&labelColor=%233178C6&color=%23808080"/>
-  
+> <img src="https://img.shields.io/badge/JavaScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%23F7DF1E&labelColor=%23F7DF1E&color=%23808080"/>
+> <img src="https://img.shields.io/badge/TypeScript%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%233178C6&labelColor=%233178C6&color=%23808080"/>
+
 </details>
 <!---------------------------------------------------- Frameworks and Libraries ------------------------------------------------->
 <details open>
   <summary><b>Frameworks and Libraries</b></summary>
 
-  > <img src="https://img.shields.io/badge/React%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%2361DAFB&labelColor=%2361DAFB&color=%23808080" />
+> <img src="https://img.shields.io/badge/React%EF%B8%B12.8%25-brightgreen?style=flat-square&logo=codesandbox&logoColor=%2361DAFB&labelColor=%2361DAFB&color=%23808080" />
+
 </details>
 <details open>
   <summary><b>Databases and Cloud Hosting</b></summary>
@@ -43,43 +46,31 @@
 <details closed>
   <summary><b>Software and Tools</b></summary>
 
-  > <img src="https://img.shields.io/badge/npm-brightgreen?style=flat&logo=npm&logoColor=%20%23ffffff&labelColor=%23CB3837&color=%23CB3837" />
-  > <img src="https://img.shields.io/badge/Yarn-brightgreen?style=flat&logo=yarn&logoColor=%20%23ffffff&labelColor=%232C8EBB&color=%232C8EBB" />
-  > <img src="https://img.shields.io/badge/Git-brightgreen?style=flat&logo=git&logoColor=%20%23ffffff&labelColor=%23F05032&color=%23F05032" />
-  > <img src="https://img.shields.io/badge/Visual%20Studio%20Code-brightgreen?style=flat&logo=visualstudiocode&labelColor=%23007ACC&color=%23007ACC" />
-  > <img src="https://img.shields.io/badge/Postman-brightgreen?style=flat&logo=postman&logoColor=%20%23ffffff&labelColor=%23FF6C37&color=%23FF6C37" />
-  > <img src="https://img.shields.io/badge/Stack%20Overflow-brightgreen?style=flat&logo=stackoverflow&logoColor=%20%23ffffff&labelColor=%23F58025&color=%23F58025" />
-  > <img src="https://img.shields.io/badge/NetBeans-brightgreen?style=flat&logo=apachenetbeanside&logoColor=%20%23ffffff&labelColor=%231B6AC6&color=%231B6AC6" />
+> <img src="https://img.shields.io/badge/npm-brightgreen?style=flat&logo=npm&logoColor=%20%23ffffff&labelColor=%23CB3837&color=%23CB3837" />
+> <img src="https://img.shields.io/badge/Yarn-brightgreen?style=flat&logo=yarn&logoColor=%20%23ffffff&labelColor=%232C8EBB&color=%232C8EBB" />
+> <img src="https://img.shields.io/badge/Git-brightgreen?style=flat&logo=git&logoColor=%20%23ffffff&labelColor=%23F05032&color=%23F05032" />
+> <img src="https://img.shields.io/badge/Visual%20Studio%20Code-brightgreen?style=flat&logo=visualstudiocode&labelColor=%23007ACC&color=%23007ACC" />
+> <img src="https://img.shields.io/badge/Postman-brightgreen?style=flat&logo=postman&logoColor=%20%23ffffff&labelColor=%23FF6C37&color=%23FF6C37" />
+> <img src="https://img.shields.io/badge/Stack%20Overflow-brightgreen?style=flat&logo=stackoverflow&logoColor=%20%23ffffff&labelColor=%23F58025&color=%23F58025" />
+> <img src="https://img.shields.io/badge/NetBeans-brightgreen?style=flat&logo=apachenetbeanside&logoColor=%20%23ffffff&labelColor=%231B6AC6&color=%231B6AC6" />
 
 </details>
-
+</details>
 
 <h2>Github Stats</h2>
-
-
 
 ```txt
 No activity tracked
 ```
 
-
-
 <!--info-->
 
 🌟
-<h2>My Projects</h2>
-<a
-  href="https://github.com/DaniDeDos/react-TodoListApp"
-  target="_blank"
-  rel="noreferrer"
->
-  <img
-    align="center"
-    alt="asd"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&theme=react&repo=react-TodoListApp"
-  />
-</a>
 
+<h2>My Projects</h2>
+<a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&theme=react&repo=react-TodoListApp" />
+</a>
 <br />
 <br />
 
@@ -91,6 +82,6 @@ No activity tracked
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 7:19:57 AM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 7:09:39 AM</b></p> 
  <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
