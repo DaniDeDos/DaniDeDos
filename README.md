@@ -2,6 +2,10 @@
 <div>
   <img src="https://private-user-images.githubusercontent.com/151276855/293449487-2f415cf7-682b-453d-9e65-ceaba3e9e423.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDM5MjMxOTcsIm5iZiI6MTcwMzkyMjg5NywicGF0aCI6Ii8xNTEyNzY4NTUvMjkzNDQ5NDg3LTJmNDE1Y2Y3LTY4MmItNDUzZC05ZTY1LWNlYWJhM2U5ZTQyMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjMxMjMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIzMFQwNzU0NTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTdiZThiMmU4YWJlZTYxYzU1ZjgyZGI0ZWY1ZmEwYmM2ODE4ZjZmNGJlM2ViZWZlOGEyZTJiZGNkY2NhMzVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.O9_xJBF_bv-SpBu-7VBEbTuXCdW-DvU8PrelCKtNTj4" width="100%" />
 </div>
+<img src="https://img.shields.io/badge/-Javascript-000?style=for-the-badge&logo=javascript&color=151515&logoColor=000&labelColor=f28a00">
+  <img src="https://img.shields.io/badge/-HTML-c58545?style=for-the-badge&logo=html5&logoColor=c58545&labelColor=282828">
+  <img src="https://img.shields.io/badge/-CSS-d1a01f?style=for-the-badge&logo=css3&logoColor=d1a01f&labelColor=282828">
+  <img src="https://img.shields.io/badge/-Python-98b982?style=for-the-badge&logo=python&logoColor=98b982&labelColor=282828">
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
  <img src="https://img.shields.io/badge/GitHub%20Action%20Status-Online-brightgreen?style=flat&logo=githubactions&logoColor=%23ffffff&labelColor=%23181717&color=%232088FF" align="right" />
 
