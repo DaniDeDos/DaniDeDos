@@ -1,9 +1,9 @@
 name: Waka Readme
 
 on:
- push:
-   branches:
-     - master
+# push:
+#   branches:
+#     - master
 # schedule:
 #   - cron: '* * * * *'
  workflow_dispatch:
