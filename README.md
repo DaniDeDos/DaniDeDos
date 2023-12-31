@@ -123,7 +123,7 @@ Operating Systems
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 2:52:03 AM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 2:59:39 AM</b></p> 
 
 <!--
     
