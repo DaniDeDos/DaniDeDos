@@ -16,21 +16,6 @@
 </div>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
-<!-- Outer collapsible -->  
-<details closed>
-   <summary><b>💥 Expand me❗</b></summary>
-  
-   <hr>
-<!----------------------------------------------------------- About me ----------------------------------------------------------> 
-<h2>👤 About me</h2>
-
-```javascript
-No activity tracked
-```
-👦❤️
-  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
-<div>
-  
 <h2>⚙️ Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
@@ -78,21 +63,30 @@ No activity tracked
 Browsers
 Operating Systems
 </details>
-
-<!----------------------------------------------------------- Separator --------------------------------------------------------->
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%" />
 </div>
+<hr>
 
-<br />
-<br />
+<!----------------------------------------------------------- About me ----------------------------------------------------------> 
+<details closed>
+  <summary><b>👤 About me</b></summary>
+  <hr>
+  
+  ```javascript
+  No activity tracked
+  ```
+  👦❤️
+  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
+<hr>
+</details>
 
+<!--------------------------------------------------------- Github Stats --------------------------------------------------------> 
 <details closed>
   <summary><b>🌟 Github Stats</b></summary>
     <hr>
     <img src="https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&icon_color=FF880&text_color=FF880F&border_color=FF880F&rank_icon=github" alt="mystreak"  align="right" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent&border=FF880F&stroke=448EE4&fire=FF880F&currStreakNum=FF880F&ring=FF880F&sideNums=448EE4&currStreakLabel=FF880F&sideLabels=FF880F&dates=448EE4" alt="mystreak"/>
+    <hr>
 </details> 
-</details>
 
 <!----------------------------------------------------------- Projects ---------------------------------------------------------->
 <section class="Projects">
@@ -104,12 +98,18 @@ Operating Systems
 </a>
 </section>
 
-<!------------------------------------------------------------ footer ----------------------------------------------------------->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
-</p>
+<br />
+<br />
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&center=true&vCenter=true&pause=1000&color=448EE4&random=false&width=435&lines=If+you+found+something+useful+here!;If+you+liked+it!;Please+give+me+a+star+%E2%AD%90%EF%B8%8F!;Please+follow+me!" alt="Typing SVG" /></a>
+</div>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 5:00:36 AM</b></p>
+<!------------------------------------------------------------ footer ----------------------------------------------------------->
+<img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
+
+<div>
+<p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 4:26:51 AM</b></p>
+</div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
  <!--START_SECTION:waka-->
