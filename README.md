@@ -27,9 +27,13 @@ Find me on
 <details closed>
    <summary><b>💥 Expand me❗</b></summary>
   
-   <br>
+   <hr>
 <!----------------------------------------------------------- About me ----------------------------------------------------------> 
 <h2>👤 About me</h2>
+
+```javascript
+No activity tracked
+```
 👦❤️
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 <div>
@@ -78,14 +82,15 @@ Find me on
 > <img src="https://img.shields.io/badge/Postman-brightgreen?style=flat&logo=postman&logoColor=%20%23ffffff&labelColor=%23FF6C37&color=%23FF6C37" />
 > <img src="https://img.shields.io/badge/Stack%20Overflow-brightgreen?style=flat&logo=stackoverflow&logoColor=%20%23ffffff&labelColor=%23F58025&color=%23F58025" />
 > <img src="https://img.shields.io/badge/NetBeans-brightgreen?style=flat&logo=apachenetbeanside&logoColor=%20%23ffffff&labelColor=%231B6AC6&color=%231B6AC6" />
-
+Browsers
+Operating Systems
 </details>
+
+<!----------------------------------------------------------- Separator --------------------------------------------------------->
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%" />
 </div>
 
-```txt
-No activity tracked
-```
+
 
 <!--info-->
 
@@ -94,37 +99,36 @@ No activity tracked
 <br />
 
 
-
+<details closed>
+  <summary><b>🌟 Github Stats</b></summary>
+    <hr>
+    <img src="https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&icon_color=FF880&text_color=FF880F&border_color=FF880F&rank_icon=github" alt="mystreak"  align="right" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent&border=FF880F&stroke=448EE4&fire=FF880F&currStreakNum=FF880F&ring=FF880F&sideNums=448EE4&currStreakLabel=FF880F&sideLabels=FF880F&dates=448EE4" alt="mystreak"/>
+</details> 
 </details>
 
+<!----------------------------------------------------------- Projects ---------------------------------------------------------->
+<section class="Projects">
+<!----------------------------------------------------------- Separator --------------------------------------------------------->
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=projects" width = "100%">
 <h2>💼 My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
+</section>
 
-
-Browsers
-Operating Systems
-
-<h2>🌟 Github Stats</h2>
-<details open>
-  <summary>💥</summary>
-  <br />
-  
-![AkuraDiary's github stats](https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F)
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent" alt="mystreak"/>
-</details> 
-
-<!--footer-->
+<!------------------------------------------------------------ footer ----------------------------------------------------------->
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer"
-    width="100%"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 3:27:31 AM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/31/2023, 1:09:03 AM</b></p>
 
+<!------------------------------------------------------------- WAKA ------------------------------------------------------------>
+ <!--START_SECTION:waka-->
+ <!--END_SECTION:waka-->
+
+ 
 <!--
     
 > <img src="https://img.shields.io/badge/PostgreSQL-brightgreen?style=flat&logo=postgresql&logoColor=%20%23ffffff&labelColor=%234169E1&color=%23333333" />
@@ -140,5 +144,4 @@ Operating Systems
   <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=0A66C2&logoColor=0A66C2&labelColor=151515">
 </div>
 
- <!--START_SECTION:waka-->
- <!--END_SECTION:waka-->
+
