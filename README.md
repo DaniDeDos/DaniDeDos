@@ -1,14 +1,7 @@
-
-❤️
-My profile README repo. Share some love with a ⭐!
-Find me on
-📖
-📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
-
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
 <div>
 <img src="https://img.shields.io/badge/GitHub%20Action%20Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
-<h4>hola papu</h4>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=FF880F&random=false&width=435&lines=Hey+there!+%F0%9F%91%8B;you+found+me!;Welcome+to+my+profile+README!;Come+along+for+the+ride!" alt="Typing SVG" /></a>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 </div>
 
@@ -90,14 +83,8 @@ Operating Systems
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=gradient&height=1&section=asdd" width = "100%" />
 </div>
 
-
-
-<!--info-->
-
-
 <br />
 <br />
-
 
 <details closed>
   <summary><b>🌟 Github Stats</b></summary>
@@ -127,7 +114,6 @@ Operating Systems
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
  <!--START_SECTION:waka-->
  <!--END_SECTION:waka-->
-
  
 <!--
     
@@ -143,5 +129,3 @@ Operating Systems
   <img src="https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail&color=EA4335&logoColor=EA4335&labelColor=151515">
   <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=0A66C2&logoColor=0A66C2&labelColor=151515">
 </div>
-
-
