@@ -1,5 +1,9 @@
-![AkuraDiary's github stats](https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=tokyonight)
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=tokyonight" alt="mystreak"/>
+
+❤️
+My profile README repo. Share some love with a ⭐!
+Find me on
+📖
+📫 𝙷𝚘𝚠 𝚝𝚘 𝚛𝚎𝚊𝚌𝚑 𝚖𝚎:
 
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
 <div>
@@ -19,20 +23,25 @@
 </div>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
+<!-- Outer collapsible -->  
+<details closed>
+   <summary><b>💥 Expand me❗</b></summary>
+  
+   <br>
 <!----------------------------------------------------------- About me ----------------------------------------------------------> 
 <h2>👤 About me</h2>
-
+👦❤️
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 <div>
   
-<h2> Skills</h2>
+<h2>⚙️ Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
   <summary><b>Styles and Markup</b></summary>
 
 </p>
-<img align='right' width='300' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
+<img align='right' width='400' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
 
 > <img src="https://img.shields.io/badge/-html5-000000?style=for-the-badge&logo=html5&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-css3-000000?style=for-the-badge&logo=css3&color=000000&logoColor=000&labelColor=FF8C00">
@@ -80,17 +89,32 @@ No activity tracked
 
 <!--info-->
 
-<h2>My Projects</h2>
+
+<br />
+<br />
+
+
+
+</details>
+
+<h2>💼 My Projects</h2>
 <a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
-<br />
-<br />
 
-<h2>🌟 Github Stats</h2>
 
 Browsers
 Operating Systems
+
+<h2>🌟 Github Stats</h2>
+<details open>
+  <summary>💥</summary>
+  <br />
+  
+![AkuraDiary's github stats](https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F)
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent" alt="mystreak"/>
+</details> 
+
 <!--footer-->
 <p align="center">
   <img
@@ -99,7 +123,7 @@ Operating Systems
   />
 </p>
 
- <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 11:50:48 PM</b></p> 
+ <p align="right"><i>ultima coneccion</i> : <b>12/30/2023, 11:50:34 PM</b></p> 
 
 <!--
     
