@@ -23,7 +23,6 @@
   <summary><b>Styles and Markup</b></summary>
 
 </p>
-<img align='right' width='400' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
 
 > <img src="https://img.shields.io/badge/-html5-000000?style=for-the-badge&logo=html5&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-css3-000000?style=for-the-badge&logo=css3&color=000000&logoColor=000&labelColor=FF8C00">
@@ -35,6 +34,8 @@
   
 > <img src="https://img.shields.io/badge/-javascript-000000?style=for-the-badge&logo=javascript&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-typescript-000000?style=for-the-badge&logo=typescript&color=000000&logoColor=000&labelColor=FF8C00">
+<img align='right' width='400' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
+
 </details>
 <!---------------------------------------------------- Frameworks and Libraries ------------------------------------------------->
 <details open>
