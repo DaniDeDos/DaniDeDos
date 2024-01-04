@@ -84,8 +84,8 @@ Operating Systems
 <details closed>
   <summary><b>🌟 Github Stats</b></summary>
     <hr>
-    <img src="https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&icon_color=FF880&text_color=FF880F&border_color=FF880F&rank_icon=github" alt="mystreak"  align="right" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent&border=FF880F&stroke=448EE4&fire=FF880F&currStreakNum=FF880F&ring=FF880F&sideNums=448EE4&currStreakLabel=FF880F&sideLabels=FF880F&dates=448EE4" alt="mystreak"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=DaniDeDos&show_icons=true&theme=transparent&layout=compact&title_color=448EE4&icon_color=FF880&text_color=FF880F&border_color=FF880F&rank_icon=github" alt="mystreak"  align="right"  width="400px" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=DaniDeDos&theme=transparent&border=FF880F&stroke=448EE4&fire=FF880F&currStreakNum=FF880F&ring=FF880F&sideNums=448EE4&currStreakLabel=FF880F&sideLabels=FF880F&dates=448EE4" alt="mystreak"  width="400px"/>
     <hr>
 </details> 
 
