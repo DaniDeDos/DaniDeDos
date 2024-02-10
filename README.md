@@ -16,6 +16,19 @@
 </div>
 <img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
+<!----------------------------------------------------------- About me ----------------------------------------------------------> 
+<details closed>
+  <summary><b>👤 About me</b></summary>
+  <hr>
+  
+  ```javascript
+  No activity tracked
+  ```
+  👦❤️
+  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
+<hr>
+</details>
+
 <h2>⚙️ Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
@@ -68,19 +81,6 @@ Operating Systems
 </details>
 </div>
 <hr>
-
-<!----------------------------------------------------------- About me ----------------------------------------------------------> 
-<details closed>
-  <summary><b>👤 About me</b></summary>
-  <hr>
-  
-  ```javascript
-  No activity tracked
-  ```
-  👦❤️
-  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
-<hr>
-</details>
 
 <!--------------------------------------------------------- Github Stats --------------------------------------------------------> 
 <details closed>
