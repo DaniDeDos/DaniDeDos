@@ -14,21 +14,20 @@
   <img src="https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail&color=151515&logoColor=000&labelColor=FF880F">
   <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=151515&logoColor=000&labelColor=FF880F">
 </div>
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
 
-<!----------------------------------------------------------- About me ----------------------------------------------------------> 
-<details closed>
-  <summary><b>👤 About me</b></summary>
-  <hr>
-  
-  ```javascript
-  No activity tracked
-  ```
-  👦❤️
-  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
-<hr>
-</details>
-
+<!----------------------------------------------------------- Projects ---------------------------------------------------------->
+<section class="Projects">
+<h2>💼 My Projects</h2>
+<a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
+</a>
+<a href="https://github.com/DaniDeDos/react-GifExpertApp" target="_blank" rel="noreferrer"  align="right" >
+  <img align="right" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-GifExpertApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
+</a>
+</section>
+<!----------------------------------------------------------- Separator --------------------------------------------------------->
+<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=projects" width = "100%">
+<!------------------------------------------------------------------------------------------------------------------------------->
 <h2>⚙️ Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
@@ -91,21 +90,20 @@ Operating Systems
     <hr>
 </details> 
 
-<!----------------------------------------------------------- Projects ---------------------------------------------------------->
-<section class="Projects">
-<!----------------------------------------------------------- Separator --------------------------------------------------------->
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=projects" width = "100%">
-<h2>💼 My Projects</h2>
-<a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
-</a>
-<a href="https://github.com/DaniDeDos/react-GifExpertApp" target="_blank" rel="noreferrer"  align="right" >
-  <img align="right" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-GifExpertApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
-</a>
-</section>
+<!----------------------------------------------------------- About me ----------------------------------------------------------> 
+<details closed>
+  <summary><b>👤 About me</b></summary>
+  <hr>
+  
+  ```javascript
+  No activity tracked
+  ```
+  👦❤️
+  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
+</details>
+<hr>
+<!----------------------------------------------------------- About me ----------------------------------------------------------> 
 
-<br />
-<br />
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&center=true&vCenter=true&pause=1000&color=448EE4&random=false&width=435&lines=If+you+found+something+useful+here!;If+you+liked+it!;Please+give+me+a+star+%E2%AD%90%EF%B8%8F!;Please+follow+me!" alt="Typing SVG" /></a>
 </div>
@@ -114,7 +112,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>2/10/2024, 9:29:23 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>2/10/2024, 9:14:32 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
