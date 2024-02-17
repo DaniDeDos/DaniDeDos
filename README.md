@@ -112,7 +112,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>2/17/2024, 11:19:45 AM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>2/17/2024, 12:22:53 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
