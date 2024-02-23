@@ -18,7 +18,7 @@
 <!----------------------------------------------------------- Projects ---------------------------------------------------------->
 <section class="Projects">
 <h2>💼 My Projects</h2>
-<a href="https://github.com/DaniDeDos/react-TodoListApp" target="_blank" rel="noreferrer">
+<a href="https://github.com/DaniDeDos/MERN-TodoListApp" target="_blank" rel="noreferrer">
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 <a href="https://github.com/DaniDeDos/react-GifExpertApp" target="_blank" rel="noreferrer"  align="right" >
@@ -112,7 +112,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>2/23/2024, 10:23:29 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>2/23/2024, 10:22:05 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
