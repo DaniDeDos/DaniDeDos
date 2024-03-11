@@ -12,8 +12,8 @@
 <br />
 <div align="center">
   <img src="https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail&color=151515&logoColor=000&labelColor=FF880F">
-  <a href="https://www.linkedin.com/in/DaniDeDos" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=151515&logoColor=000&labelColor=FF880F">
+  <a href="hhttps://t.me/DaniDeDos" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/-telegram-000?style=for-the-badge&logo=telegram&color=151515&logoColor=000&labelColor=FF880F">
   </a>
 </div>
 
