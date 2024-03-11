@@ -78,6 +78,7 @@
 > <img src="https://img.shields.io/badge/Postman-brightgreen?style=flat&logo=postman&logoColor=%20%23ffffff&labelColor=%23FF6C37&color=%23FF6C37" />
 > <img src="https://img.shields.io/badge/Stack%20Overflow-brightgreen?style=flat&logo=stackoverflow&logoColor=%20%23ffffff&labelColor=%23F58025&color=%23F58025" />
 > <img src="https://img.shields.io/badge/NetBeans-brightgreen?style=flat&logo=apachenetbeanside&logoColor=%20%23ffffff&labelColor=%231B6AC6&color=%231B6AC6" />
+> <img src="https://img.shields.io/badge/Google%20Chrome-brightgreen?style=flat&logo=googlechrome&logoColor=%20%23ffffff&labelColor=%4285F4&color=%4285F4" />
 Browsers
 Operating Systems
 </details>
