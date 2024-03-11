@@ -56,6 +56,7 @@
   <summary><b>Frameworks and Libraries</b></summary>
   
 > <img src="https://img.shields.io/badge/-react-000000?style=for-the-badge&logo=react&color=000000&logoColor=000&labelColor=FF8C00"><br>
+> <img src="https://img.shields.io/badge/-tailwindcss-000000?style=for-the-badge&logo=tailwindcss&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-styled components-000000?style=for-the-badge&logo=styled-components&color=000000&logoColor=000&labelColor=FF8C00">
 
 </details>
@@ -114,7 +115,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 7:43:55 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 7:40:03 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
