@@ -78,7 +78,9 @@
 > <img src="https://img.shields.io/badge/Postman-brightgreen?style=flat&logo=postman&logoColor=%20%23ffffff&labelColor=%23FF6C37&color=%23FF6C37" />
 > <img src="https://img.shields.io/badge/Stack%20Overflow-brightgreen?style=flat&logo=stackoverflow&logoColor=%20%23ffffff&labelColor=%23F58025&color=%23F58025" />
 > <img src="https://img.shields.io/badge/NetBeans-brightgreen?style=flat&logo=apachenetbeanside&logoColor=%20%23ffffff&labelColor=%231B6AC6&color=%231B6AC6" />
-> <img src="https://img.shields.io/badge/Google%20Chrome-brightgreen?style=flat&logo=googlechrome&logoColor=%20%23ffffff&labelColor=%4285F4&color=%4285F4" />
+> <img src="https://img.shields.io/badge/Google%20Chrome-brightgreen?style=flat&logo=googlechrome&logoColor=%20%23ffffff&labelColor=%234285F4&color=%234285F4" />
+> <img src="https://img.shields.io/badge/Firefox-brightgreen?style=flat&logo=firefox&logoColor=%20%23ffffff&labelColor=%23FF7139&color=%23FF7139" />
+
 Browsers
 Operating Systems
 </details>
@@ -116,7 +118,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 7:52:29 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 7:49:53 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
