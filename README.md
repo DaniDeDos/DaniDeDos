@@ -18,8 +18,8 @@
 <!----------------------------------------------------------- Projects ---------------------------------------------------------->
 <section class="Projects">
 <h2>💼 My Projects</h2>
-<a href="https://github.com/DaniDeDos/MERN-TodoListApp" target="_blank" rel="noreferrer">
-  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-TodoListApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
+<a href="https://github.com/DaniDeDos/MERN-TodoList" target="_blank" rel="noreferrer">
+  <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-TodoList&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 <a href="https://github.com/DaniDeDos/react-GifExpertApp" target="_blank" rel="noreferrer"  align="right" >
   <img align="right" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=react-GifExpertApp&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
