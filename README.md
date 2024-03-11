@@ -70,7 +70,8 @@
 </details>
 <details closed>
   <summary><b>Software and Tools</b></summary>
-
+  
+> <img src="https://img.shields.io/badge/Linux Mint-brightgreen?style=flat&logo=linuxmint&logoColor=%20%23ffffff&labelColor=%2387CF3E&color=%2387CF3E" />
 > <img src="https://img.shields.io/badge/npm-brightgreen?style=flat&logo=npm&logoColor=%20%23ffffff&labelColor=%23CB3837&color=%23CB3837" />
 > <img src="https://img.shields.io/badge/Yarn-brightgreen?style=flat&logo=yarn&logoColor=%20%23ffffff&labelColor=%232C8EBB&color=%232C8EBB" />
 > <img src="https://img.shields.io/badge/Git-brightgreen?style=flat&logo=git&logoColor=%20%23ffffff&labelColor=%23F05032&color=%23F05032" />
@@ -81,8 +82,6 @@
 > <img src="https://img.shields.io/badge/Google%20Chrome-brightgreen?style=flat&logo=googlechrome&logoColor=%20%23ffffff&labelColor=%234285F4&color=%234285F4" />
 > <img src="https://img.shields.io/badge/Firefox-brightgreen?style=flat&logo=firefox&logoColor=%20%23ffffff&labelColor=%23FF7139&color=%23FF7139" />
 
-Browsers
-Operating Systems
 </details>
 </div>
 <hr>
@@ -118,7 +117,7 @@ Operating Systems
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 8:07:03 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/11/2024, 8:03:51 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
