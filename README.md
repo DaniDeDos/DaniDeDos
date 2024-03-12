@@ -101,7 +101,14 @@
   <hr>
   
   ```javascript
-  No activity tracked
+    Desarrollador Full-Stack apasionado por la creación de soluciones web completas, con una sólida base en tecnologías como
+  HTML5, CSS3 y JavaScript. Mi experiencia en React, Tailwind CSS, NodeJS y bases de datos relacionales y no relacionales
+  me permite diseñar y programar experiencias de usuario excepcionales. Mi enfoque meticuloso y detallista asegura la entrega
+  de productos de alta calidad y funcionalidad.
+
+    Mi objetivo es constantemente perfeccionar mis habilidades y adquirir nuevos conocimientos, manteniéndome al día con las
+últimas tendencias y tecnologías. Mi espíritu autodidacta y mi gran curiosidad me permiten enfrentar cada proyecto como una
+nueva experiencia.
   ```
   👦❤️
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
@@ -117,7 +124,7 @@
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/12/2024, 1:24:07 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/12/2024, 1:20:41 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
@@ -138,3 +145,4 @@
   <img src="https://img.shields.io/badge/-gmail-000?style=for-the-badge&logo=gmail&color=EA4335&logoColor=EA4335&labelColor=151515">
   <img src="https://img.shields.io/badge/-linkedin-000?style=for-the-badge&logo=linkedin&color=0A66C2&logoColor=0A66C2&labelColor=151515">
 </div>
+Interesado en aprender más sobre el desarrollo de aplicaciones móviles y el uso de frameworks como React Native, Flutter y VueJS, con el objetivo de expandir mi portafolio y contribuir a proyectos innovadores en el ámbito de la tecnología.
