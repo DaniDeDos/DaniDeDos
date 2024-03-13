@@ -124,7 +124,7 @@ nueva experiencia.
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/13/2024, 11:29:26 AM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/13/2024, 11:29:41 AM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
