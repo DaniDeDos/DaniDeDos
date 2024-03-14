@@ -20,11 +20,11 @@
 <!----------------------------------------------------------- Projects ---------------------------------------------------------->
 <section class="Projects">
 <h2>💼 My Projects</h2>
-<a href="https://github.com/DaniDeDos/MERN-TodoList" target="_blank" rel="noreferrer">
+<a href="https://github.com/DaniDeDos/MERN-GraphQL-Apollo-StarterKit" target="_blank" rel="noreferrer">
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-GraphQL-Apollo-StarterKit&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 
-<a href="https://github.com/DaniDeDos/MERN-GraphQL-Apollo-StarterKit" target="_blank" rel="noreferrer"  align="right" >
+<a href="https://github.com/DaniDeDos/MERN-TodoList" target="_blank" rel="noreferrer"  align="right" >
   <img align="right" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-TodoList&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
   
