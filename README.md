@@ -24,7 +24,7 @@
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-TodoList&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a>
 
- <a href="https://github.com/DaniDeDos/MERN-Blog-Demo" target="_blank" rel="noreferrer">
+ <a href="https://github.com/DaniDeDos/MERN-Blog-Demo" target="_blank" rel="noreferrer" aling="rigth">
   <img align="center" alt="asd" src="https://github-readme-stats.vercel.app/api/pin/?username=DaniDeDos&repo=MERN-Blog-Demo&theme=transparent&icon_color=448EE4&title_color=448EE4&text_color=FF880F&border_color=FF880F" />
 </a> 
   
