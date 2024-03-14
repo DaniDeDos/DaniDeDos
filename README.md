@@ -101,14 +101,8 @@
   <hr>
   
   ```javascript
-    Desarrollador Full-Stack apasionado por la creación de soluciones web completas, con una sólida base en tecnologías como
-  HTML5, CSS3 y JavaScript. Mi experiencia en React, Tailwind CSS, NodeJS y bases de datos relacionales y no relacionales
-  me permite diseñar y programar experiencias de usuario excepcionales. Mi enfoque meticuloso y detallista asegura la entrega
-  de productos de alta calidad y funcionalidad.
-
-    Mi objetivo es constantemente perfeccionar mis habilidades y adquirir nuevos conocimientos, manteniéndome al día con las
-últimas tendencias y tecnologías. Mi espíritu autodidacta y mi gran curiosidad me permiten enfrentar cada proyecto como una
-nueva experiencia.
+Constantemente perfeccionando mis habilidades y adquiririendo nuevos conocimientos, manteniéndome al día con las
+últimas tendencias y tecnologías.
   ```
   👦❤️
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
