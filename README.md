@@ -120,7 +120,7 @@ Constantemente perfeccionando mis habilidades y adquiririendo nuevos conocimient
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
 
 <div>
-<p align="right"><i>ultima coneccion</i> : <b>3/25/2024, 12:38:11 PM</b></p>
+<p align="right"><i>ultima coneccion</i> : <b>3/25/2024, 12:38:25 PM</b></p>
 </div>
 
 <!------------------------------------------------------------- WAKA ------------------------------------------------------------>
