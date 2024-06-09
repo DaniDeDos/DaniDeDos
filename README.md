@@ -1,5 +1,5 @@
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
-<img src="https://img.shields.io/badge/GitHub%20Action%20Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
+<img src="https://img.shields.io/badge/Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
 <br />
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
@@ -15,9 +15,6 @@
     <img src="https://img.shields.io/badge/-telegram-000?style=for-the-badge&logo=telegram&color=151515&logoColor=000&labelColor=FF880F">
   </a>
 </div>
-
-<!------------------------------------------------------------------------------------------------------------------------------->
-<h2>⚙️ Skills</h2>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details open>
