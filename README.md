@@ -100,12 +100,6 @@ Constantemente perfeccionando mis habilidades y adquiririendo nuevos conocimient
   👦❤️
   <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
 </details>
-<hr>
-<!----------------------------------------------------------- About me ----------------------------------------------------------> 
-
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&center=true&vCenter=true&pause=1000&color=448EE4&random=false&width=435&lines=If+you+found+something+useful+here!;If+you+liked+it!;Please+give+me+a+star+%E2%AD%90%EF%B8%8F!;Please+follow+me!" alt="Typing SVG" /></a>
-</div>
 
 <!------------------------------------------------------------ footer ----------------------------------------------------------->
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
