@@ -4,8 +4,9 @@
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
 <div align="center">
-  <div><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 80px></div>
-  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=FF880F&random=false&width=435&lines=Hey+there!+%F0%9F%91%8B;you+found+me!;Welcome+to+my+profile+README!;Come+along+for+the+ride!" alt="Typing SVG" /></a>
+  <div align="center">
+  <img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 80px>  
+</div>
 </div>
 <br />
 <div align="center">
