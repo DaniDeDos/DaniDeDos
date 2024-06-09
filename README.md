@@ -1,5 +1,5 @@
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
-<img src="https://img.shields.io/badge/Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
+<img src="https://img.shields.io/badge/Bot%20Status-On-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
 <br />
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
@@ -17,7 +17,7 @@
 </div>
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
-<details open>
+<details closed>
   <summary><b>Styles and Markup</b></summary>
 
 </p>
@@ -27,7 +27,7 @@
 </details>
 
 <!--------------------------------------------------- Lenguajes de programacion ------------------------------------------------->
-<details open>
+<details closed>
   <summary><b>Programming Languages</b></summary>
   
 > <img src="https://img.shields.io/badge/-javascript-000000?style=for-the-badge&logo=javascript&color=000000&logoColor=000&labelColor=FF8C00">
@@ -35,7 +35,7 @@
 
 </details>
 <!---------------------------------------------------- Frameworks and Libraries ------------------------------------------------->
-<details open>
+<details closed>
   <summary><b>Frameworks and Libraries</b></summary>
   
 > <img src="https://img.shields.io/badge/-react-000000?style=for-the-badge&logo=react&color=000000&logoColor=000&labelColor=FF8C00"><br>
@@ -43,7 +43,7 @@
 > <img src="https://img.shields.io/badge/-styled components-000000?style=for-the-badge&logo=styled-components&color=000000&logoColor=000&labelColor=FF8C00">
 
 </details>
-<details open>
+<details closed>
   <summary><b>Databases and Cloud Hosting</b></summary>
 
 > <img src="https://img.shields.io/badge/-postgresql-000000?style=for-the-badge&logo=postgresql&color=000000&logoColor=000&labelColor=FF8C00">
