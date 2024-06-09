@@ -1,13 +1,11 @@
 <!---------------------------------------------------- GITHub Action BOT Status ------------------------------------------------->
-<div>
 <img src="https://img.shields.io/badge/GitHub%20Action%20Bot%20Status-Online-brightgreen?style=for-the-badge&logo=githubactions&logoColor=2088FF&labelColor=000000&color=448EE4" align="right" />
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=FF880F&random=false&width=435&lines=Hey+there!+%F0%9F%91%8B;you+found+me!;Welcome+to+my+profile+README!;Come+along+for+the+ride!" alt="Typing SVG" /></a>
-<img src = "https://capsule-render.vercel.app/api?type=rect&color=448EE4&height=1&section=asdd" width = "100%">
-</div>
+<br />
 
 <!------------------------------------------------------------ Banner ----------------------------------------------------------->
-<div>
-<img src="https://github.com/DaniDeDos/DaniDeDos/assets/151276855/df9c2443-f802-429b-9cd9-078a232b585d" width="100%" />
+<div align="center">
+  <div><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 80px></div>
+  <a href="#"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=1000&color=FF880F&random=false&width=435&lines=Hey+there!+%F0%9F%91%8B;you+found+me!;Welcome+to+my+profile+README!;Come+along+for+the+ride!" alt="Typing SVG" /></a>
 </div>
 <br />
 <div align="center">
@@ -50,7 +48,6 @@
   
 > <img src="https://img.shields.io/badge/-javascript-000000?style=for-the-badge&logo=javascript&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-typescript-000000?style=for-the-badge&logo=typescript&color=000000&logoColor=000&labelColor=FF8C00">
-<img align='right' width='400' src='https://github-readme-stats.vercel.app/api/top-langs/?username=DaniDeDos&theme=transparent&layout=compact&title_color=448EE4&text_color=FF880F&border_color=FF880F' alt='Astro Dab'>
 
 </details>
 <!---------------------------------------------------- Frameworks and Libraries ------------------------------------------------->
@@ -86,20 +83,6 @@
 
 </details>
 </div>
-<hr>
-
-<!----------------------------------------------------------- About me ----------------------------------------------------------> 
-<details closed>
-  <summary><b>👤 About me</b></summary>
-  <hr>
-  
-  ```javascript
-Constantemente perfeccionando mis habilidades y adquiririendo nuevos conocimientos, manteniéndome al día con las
-últimas tendencias y tecnologías.
-  ```
-  👦❤️
-  <picture><img src = "https://github.com/0xabdulkhalid/0xabdulkhalid/blob/main/assets/mdImages/about_me.gif" width = 50px></picture>
-</details>
 
 <!------------------------------------------------------------ footer ----------------------------------------------------------->
 <img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
