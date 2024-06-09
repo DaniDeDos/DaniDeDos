@@ -18,39 +18,31 @@
 
 <!------------------------------------------------------- Styles and Markup ----------------------------------------------------->
 <details closed>
-  <summary><b>Styles and Markup</b></summary>
+  <summary><b>Development Technologies</b></summary>
 
-</p>
+<br>
 
 > <img src="https://img.shields.io/badge/-html5-000000?style=for-the-badge&logo=html5&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-css3-000000?style=for-the-badge&logo=css3&color=000000&logoColor=000&labelColor=FF8C00">
-</details>
 
 <!--------------------------------------------------- Lenguajes de programacion ------------------------------------------------->
-<details closed>
-  <summary><b>Programming Languages</b></summary>
-  
 > <img src="https://img.shields.io/badge/-javascript-000000?style=for-the-badge&logo=javascript&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-typescript-000000?style=for-the-badge&logo=typescript&color=000000&logoColor=000&labelColor=FF8C00">
 
-</details>
 <!---------------------------------------------------- Frameworks and Libraries ------------------------------------------------->
-<details closed>
-  <summary><b>Frameworks and Libraries</b></summary>
-  
 > <img src="https://img.shields.io/badge/-react-000000?style=for-the-badge&logo=react&color=000000&logoColor=000&labelColor=FF8C00"><br>
 > <img src="https://img.shields.io/badge/-tailwindcss-000000?style=for-the-badge&logo=tailwindcss&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-styled components-000000?style=for-the-badge&logo=styled-components&color=000000&logoColor=000&labelColor=FF8C00">
 
-</details>
-<details closed>
-  <summary><b>Databases and Cloud Hosting</b></summary>
-
+<!---------------------------------------------------- Databases and Cloud Hosting ------------------------------------------------->
 > <img src="https://img.shields.io/badge/-postgresql-000000?style=for-the-badge&logo=postgresql&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-mongodb-000000?style=for-the-badge&logo=mongodb&color=000000&logoColor=000&labelColor=FF8C00">
 > <img src="https://img.shields.io/badge/-githubpages-000000?style=for-the-badge&logo=githubpages&color=000000&logoColor=000&labelColor=FF8C00">
-</p>
+
 </details>
+
+<!---------------------------------------------------- Software and Tools ------------------------------------------------->
+
 <details closed>
   <summary><b>Software and Tools</b></summary>
   
