@@ -60,8 +60,13 @@
 </details>
 </div>
 
+
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+</p>
+
 <!------------------------------------------------------------ footer ----------------------------------------------------------->
-<img src="https://capsule-render.vercel.app/api?type=Waving&color=448EE4&height=80&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=Waving&color=61b348&height=80&section=footer" width="100%" />
 
 <div>
 <p align="right"><i>ultima coneccion</i> : <b>3/26/2024, 10:19:16 PM</b></p>
